@@ -1,0 +1,34 @@
+name: GitHub Profile Summary Cards
+
+on:
+  schedule:
+    - cron: '0 1 * * *'  # 毎日1時（UTC）に自動実行
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: プロフィールサマリーカード生成
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: SOOJUNBARNG
+
+      - name: 変更があればcommit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile-summary-card-output/
+          if git diff --staged --quiet; then
+            echo "変更なし — スキップ"
+          else
+            git commit -m "chore: プロフィールカード自動更新 $(date -u +%Y-%m-%d)"
+            git push
+          fi
