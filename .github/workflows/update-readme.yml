@@ -1,0 +1,112 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 毎日深夜0時（UTC）に自動実行
+  workflow_dispatch:       # 手動実行も可能
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 全リポジトリ取得 & README生成
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh repo list SOOJUNBARNG --limit 100 --json name,description,url,updatedAt,isPrivate > /tmp/repos.json
+
+          python3 << 'PYEOF'
+          import json
+          from datetime import datetime
+
+          with open('/tmp/repos.json') as f:
+              repos = json.load(f)
+
+          # カテゴリ分類ルール
+          categories = {
+              "🏥 医療・病院系": ["hospital", "doctor", "medical", "shift", "ocr", "jpix", "dentist"],
+              "🏢 クリニック・法人HP系": ["clinic", "homecare", "healthcare", "akatsuki", "tooth", "MedicalBarng"],
+              "👔 鳩ヶ谷系": ["hatogaya", "Hatogaya"],
+              "💬 LINE・通知系": ["LINE", "line", "mail", "email"],
+              "🤖 AI・自動化系": ["ai", "AI", "voice", "video", "yolo", "Yolo", "novel", "PPT", "nano", "diary", "translation", "route"],
+              "📊 データ・スクレイピング系": ["scrap", "Scrap", "asset", "Asset", "jordan", "area", "Area", "geo", "Geo", "TCB", "text", "Text", "visualization"],
+              "💰 財務・経理系": ["financial", "receipt", "stock", "Stock", "kenseikai", "Kenseikai"],
+              "🌐 Web・フロントエンド系": ["digital", "Digital", "fortune", "Fortune", "job_hunting", "gdp", "next-platform", "javascript", "clear", "Clear", "sinage", "Sinage"],
+              "🔧 ツール・管理系": ["git_control", "CLI", "chromium", "upload", "download", "graphbiz", "Graphbiz", "general"],
+              "👤 個人・キャリア系": ["resume", "career", "hackerton", "typescript", "Typescript", "writing", "Writing", "youtube", "Youtube"],
+              "🏬 その他法人・外部案件": ["ser_inc", "MA_Techno", "YRC", "sake", "Sake", "azuma-jotform", "hatogaya_jotform", "job_quit", "Job_quit", "negishi", "Negishi", "tokiwa", "Tokiwa"],
+          }
+
+          def get_category(name):
+              for cat, keywords in categories.items():
+                  for kw in keywords:
+                      if kw.lower() in name.lower():
+                          return cat
+              return "📦 その他"
+
+          grouped = {}
+          for repo in repos:
+              cat = get_category(repo['name'])
+              grouped.setdefault(cat, []).append(repo)
+
+          now = datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')
+          total = len(repos)
+
+          lines = []
+          lines.append("# 🗂️ git_control — SOOJUNBARNG リポジトリ管理")
+          lines.append("")
+          lines.append(f"> 最終更新: {now} | 合計: {total}件")
+          lines.append("")
+          lines.append("全リポジトリの一覧・管理スクリプトをまとめたハブリポジトリ。**このREADMEは毎日自動更新されます。**")
+          lines.append("")
+          lines.append("## 使い方")
+          lines.append("")
+          lines.append("```bash")
+          lines.append("./scripts/status.sh   # 全リポジトリの状態確認")
+          lines.append("./scripts/pull_all.sh  # 全リポジトリを最新に更新")
+          lines.append("./scripts/list.sh      # リポジトリ一覧を表示")
+          lines.append("```")
+          lines.append("")
+          lines.append("---")
+          lines.append("")
+          lines.append(f"## リポジトリ一覧 ({total}件)")
+
+          for cat, cat_repos in grouped.items():
+              lines.append("")
+              lines.append(f"### {cat}")
+              lines.append("")
+              lines.append("| リポジトリ | 公開 | 説明 | 最終更新 | リンク |")
+              lines.append("|-----------|------|------|----------|--------|")
+              for r in sorted(cat_repos, key=lambda x: x['updatedAt'], reverse=True):
+                  priv = "🔒" if r['isPrivate'] else "🌐"
+                  desc = r['description'] or "—"
+                  updated = r['updatedAt'][:10]
+                  lines.append(f"| {r['name']} | {priv} | {desc} | {updated} | [link]({r['url']}) |")
+
+          lines.append("")
+          lines.append("---")
+          lines.append("")
+          lines.append("🔒 = プライベート　🌐 = パブリック")
+
+          with open('README.md', 'w') as f:
+              f.write('\n'.join(lines) + '\n')
+
+          print(f"✅ README生成完了: {total}件")
+          PYEOF
+
+      - name: 変更があればcommit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --staged --quiet; then
+            echo "変更なし — スキップ"
+          else
+            git commit -m "chore: README自動更新 $(date -u +%Y-%m-%d)"
+            git push
+          fi
