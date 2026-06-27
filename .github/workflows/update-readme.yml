@@ -68,7 +68,7 @@ jobs:
           lines.append("")
           lines.append("## 📊 GitHub Stats")
           lines.append("")
-          lines.append("[![GitHub Streak](https://streak-stats.demolab.com/?user=SOOJUNBARNG&theme=tokyonight&hide_border=true&locale=ja)](https://git.io/streak-stats)")
+          lines.append("[![GitHub Streak](https://streak-stats.demolab.com/?user=SOOJUNBARNG&theme=aura_dark&hide_border=true&locale=ja)](https://git.io/streak-stats)")
           lines.append("")
           lines.append("| Overview | Languages |")
           lines.append("|----------|-----------|")
