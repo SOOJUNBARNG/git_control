@@ -1,6 +1,6 @@
 # 🗂️ git_control — SOOJUNBARNG リポジトリ管理
 
-> 最終更新: 2026-06-27 14:17 UTC | 合計: 18件
+> 最終更新: 2026-06-27 14:20 UTC | 合計: 18件
 
 全リポジトリの一覧・管理スクリプトをまとめたハブリポジトリ。**このREADMEは毎日自動更新されます。**
 
@@ -12,11 +12,11 @@
 
 | Overview | Languages |
 |----------|-----------|
-| ![](./profile-summary-card-output/github-contribution-grid-snake.svg) | ![](./profile-summary-card-output/2-most-commit-language.svg) |
+| ![](./profile-summary-card-output/aura_dark/0-profile-details.svg) | ![](./profile-summary-card-output/aura_dark/2-most-commit-language.svg) |
 
 | Repos per Language | Stats per Language | Productive Time |
 |--------------------|--------------------|-----------------|
-| ![](./profile-summary-card-output/1-repos-per-language.svg) | ![](./profile-summary-card-output/3-stats.svg) | ![](./profile-summary-card-output/4-productive-time.svg) |
+| ![](./profile-summary-card-output/aura_dark/1-repos-per-language.svg) | ![](./profile-summary-card-output/aura_dark/3-stats.svg) | ![](./profile-summary-card-output/aura_dark/4-productive-time.svg) |
 
 ---
 
