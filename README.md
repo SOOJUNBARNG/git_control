@@ -1,6 +1,6 @@
 # 🗂️ git_control — SOOJUNBARNG リポジトリ管理
 
-> 最終更新: 2026-06-28 04:22 UTC | 合計: 18件
+> 最終更新: 2026-06-29 04:42 UTC | 合計: 18件
 
 全リポジトリの一覧・管理スクリプトをまとめたハブリポジトリ。**このREADMEは毎日自動更新されます。**
 
@@ -36,7 +36,7 @@
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
-| git_control | 🌐 | — | 2026-06-27 | [link](https://github.com/SOOJUNBARNG/git_control) |
+| git_control | 🌐 | — | 2026-06-28 | [link](https://github.com/SOOJUNBARNG/git_control) |
 | CLI_google_apps_script | 🌐 | — | 2025-05-13 | [link](https://github.com/SOOJUNBARNG/CLI_google_apps_script) |
 | chromium | 🌐 | Chromium (x86-64) for Serverless Platforms | 2025-03-09 | [link](https://github.com/SOOJUNBARNG/chromium) |
 
