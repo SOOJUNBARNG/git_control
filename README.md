@@ -1,6 +1,6 @@
 # 🗂️ git_control — SOOJUNBARNG リポジトリ管理
 
-> 最終更新: 2026-06-29 04:42 UTC | 合計: 18件
+> 最終更新: 2026-06-30 04:09 UTC | 合計: 13件
 
 全リポジトリの一覧・管理スクリプトをまとめたハブリポジトリ。**このREADMEは毎日自動更新されます。**
 
@@ -30,14 +30,19 @@
 
 ---
 
-## リポジトリ一覧 (18件)
+## リポジトリ一覧 (13件)
+
+### 📦 その他
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| qr_make_task | 🌐 | QR code generator and simple Q&A site | 2026-06-29 | [link](https://github.com/SOOJUNBARNG/qr_make_task) |
 
 ### 🔧 ツール・管理系
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
-| git_control | 🌐 | — | 2026-06-28 | [link](https://github.com/SOOJUNBARNG/git_control) |
-| CLI_google_apps_script | 🌐 | — | 2025-05-13 | [link](https://github.com/SOOJUNBARNG/CLI_google_apps_script) |
+| git_control | 🌐 | — | 2026-06-29 | [link](https://github.com/SOOJUNBARNG/git_control) |
 | chromium | 🌐 | Chromium (x86-64) for Serverless Platforms | 2025-03-09 | [link](https://github.com/SOOJUNBARNG/chromium) |
 
 ### 🏥 医療・病院系
@@ -45,16 +50,12 @@
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
 | Hospital_display_video | 🌐 | — | 2026-06-19 | [link](https://github.com/SOOJUNBARNG/Hospital_display_video) |
-| MedicalBarng.github.io | 🌐 | エンジニア採用・会社プロジェクトまとめ | 2025-06-19 | [link](https://github.com/SOOJUNBARNG/MedicalBarng.github.io) |
 
 ### 🌐 Web・フロントエンド系
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
-| Digital_Sinage | 🌐 | — | 2026-05-14 | [link](https://github.com/SOOJUNBARNG/Digital_Sinage) |
 | Clear-background | 🌐 | — | 2026-01-22 | [link](https://github.com/SOOJUNBARNG/Clear-background) |
-| gdp-dashboard | 🌐 | — | 2026-01-15 | [link](https://github.com/SOOJUNBARNG/gdp-dashboard) |
-| next-platform-starter | 🌐 | — | 2025-05-28 | [link](https://github.com/SOOJUNBARNG/next-platform-starter) |
 | upgrade_javascript_dating_app | 🌐 | — | 2024-10-29 | [link](https://github.com/SOOJUNBARNG/upgrade_javascript_dating_app) |
 
 ### 📊 データ・スクレイピング系
@@ -83,7 +84,6 @@
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
 | Career_help | 🌐 | — | 2025-03-12 | [link](https://github.com/SOOJUNBARNG/Career_help) |
-| Youtube_maker | 🌐 | — | 2023-12-29 | [link](https://github.com/SOOJUNBARNG/Youtube_maker) |
 
 ---
 
