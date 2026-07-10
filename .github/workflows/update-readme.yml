@@ -16,7 +16,9 @@ jobs:
 
       - name: 全リポジトリ取得 & README生成
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # GITHUB_TOKEN はこのリポジトリにスコープされ非公開リポジトリを一覧できないため、
+          # repo スコープを持つ PAT (secrets.GH_PAT) を使用する
+          GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
           gh repo list SOOJUNBARNG --limit 100 --json name,description,url,updatedAt,isPrivate > /tmp/repos.json
 
