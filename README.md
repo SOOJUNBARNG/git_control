@@ -1,6 +1,6 @@
 # 🗂️ git_control — SOOJUNBARNG リポジトリ管理
 
-> 最終更新: 2026-07-11 03:19 UTC | 合計: 65件
+> 最終更新: 2026-07-12 03:31 UTC | 合計: 65件
 
 全リポジトリの一覧・管理スクリプトをまとめたハブリポジトリ。**このREADMEは毎日自動更新されます。**
 
@@ -36,8 +36,8 @@
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
+| azuma-visit-clinic-hp | 🔒 | microCMS Templates | 2026-07-11 | [link](https://github.com/SOOJUNBARNG/azuma-visit-clinic-hp) |
 | Negishi_homecare_HP | 🔒 | — | 2026-07-11 | [link](https://github.com/SOOJUNBARNG/Negishi_homecare_HP) |
-| azuma-visit-clinic-hp | 🔒 | microCMS Templates | 2026-07-10 | [link](https://github.com/SOOJUNBARNG/azuma-visit-clinic-hp) |
 | Tokiwa-healthcare-service | 🔒 | microCMS Templates | 2026-01-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-healthcare-service) |
 | Akatsuki_homepage | 🔒 | — | 2025-08-18 | [link](https://github.com/SOOJUNBARNG/Akatsuki_homepage) |
 
@@ -45,7 +45,7 @@
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
-| git_control | 🌐 | — | 2026-07-10 | [link](https://github.com/SOOJUNBARNG/git_control) |
+| git_control | 🌐 | — | 2026-07-11 | [link](https://github.com/SOOJUNBARNG/git_control) |
 | All_general_data_for_barng | 🔒 | — | 2026-02-01 | [link](https://github.com/SOOJUNBARNG/All_general_data_for_barng) |
 | Graphbiz_example | 🔒 | — | 2025-06-17 | [link](https://github.com/SOOJUNBARNG/Graphbiz_example) |
 | Data_upload_and_download | 🔒 | — | 2025-03-18 | [link](https://github.com/SOOJUNBARNG/Data_upload_and_download) |
