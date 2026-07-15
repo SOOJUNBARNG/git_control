@@ -1,6 +1,6 @@
 # 🗂️ git_control — SOOJUNBARNG リポジトリ管理
 
-> 最終更新: 2026-07-14 02:55 UTC | 合計: 67件
+> 最終更新: 2026-07-15 02:54 UTC | 合計: 67件
 
 全リポジトリの一覧・管理スクリプトをまとめたハブリポジトリ。**このREADMEは毎日自動更新されます。**
 
@@ -32,6 +32,39 @@
 
 ## リポジトリ一覧 (67件)
 
+### 🏢 クリニック・法人HP系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| azuma-visit-clinic-hp | 🔒 | microCMS Templates | 2026-07-14 | [link](https://github.com/SOOJUNBARNG/azuma-visit-clinic-hp) |
+| Negishi_homecare_HP | 🔒 | — | 2026-07-14 | [link](https://github.com/SOOJUNBARNG/Negishi_homecare_HP) |
+| Tokiwa-healthcare-service | 🔒 | microCMS Templates | 2026-01-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-healthcare-service) |
+| Akatsuki_homepage | 🔒 | — | 2025-08-18 | [link](https://github.com/SOOJUNBARNG/Akatsuki_homepage) |
+
+### 🏥 医療・病院系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| Hatogaya_shift_automation_app | 🔒 | — | 2026-07-14 | [link](https://github.com/SOOJUNBARNG/Hatogaya_shift_automation_app) |
+| saitama-hospital-info-collector | 🔒 | — | 2026-07-13 | [link](https://github.com/SOOJUNBARNG/saitama-hospital-info-collector) |
+| Scrap_medical_job_detail_task | 🔒 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Scrap_medical_job_detail_task) |
+| Hatogaya-medical-chat-bot | 🌐 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Hatogaya-medical-chat-bot) |
+| Hospital_display_video | 🔒 | — | 2026-07-07 | [link](https://github.com/SOOJUNBARNG/Hospital_display_video) |
+| THS_hospital_shift_automake_data | 🔒 | — | 2026-02-15 | [link](https://github.com/SOOJUNBARNG/THS_hospital_shift_automake_data) |
+| THS_dentist_shift_automake_data | 🔒 | — | 2025-09-24 | [link](https://github.com/SOOJUNBARNG/THS_dentist_shift_automake_data) |
+| Jpix_ocr | 🔒 | — | 2025-09-17 | [link](https://github.com/SOOJUNBARNG/Jpix_ocr) |
+| Medical_frontier_code | 🔒 | — | 2024-10-08 | [link](https://github.com/SOOJUNBARNG/Medical_frontier_code) |
+
+### 🔧 ツール・管理系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| git_control | 🌐 | — | 2026-07-14 | [link](https://github.com/SOOJUNBARNG/git_control) |
+| All_general_data_for_barng | 🔒 | — | 2026-02-01 | [link](https://github.com/SOOJUNBARNG/All_general_data_for_barng) |
+| Graphbiz_example | 🔒 | — | 2025-06-17 | [link](https://github.com/SOOJUNBARNG/Graphbiz_example) |
+| Data_upload_and_download | 🔒 | — | 2025-03-18 | [link](https://github.com/SOOJUNBARNG/Data_upload_and_download) |
+| chromium | 🌐 | Chromium (x86-64) for Serverless Platforms | 2025-03-09 | [link](https://github.com/SOOJUNBARNG/chromium) |
+
 ### 👔 鳩ヶ谷系
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
@@ -55,15 +88,6 @@
 | Sake_selling_ecshop | 🔒 | — | 2026-01-22 | [link](https://github.com/SOOJUNBARNG/Sake_selling_ecshop) |
 | Tokiwa_health_care_service_HP | 🔒 | — | 2025-12-13 | [link](https://github.com/SOOJUNBARNG/Tokiwa_health_care_service_HP) |
 
-### 🏢 クリニック・法人HP系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| Negishi_homecare_HP | 🔒 | — | 2026-07-13 | [link](https://github.com/SOOJUNBARNG/Negishi_homecare_HP) |
-| azuma-visit-clinic-hp | 🔒 | microCMS Templates | 2026-07-13 | [link](https://github.com/SOOJUNBARNG/azuma-visit-clinic-hp) |
-| Tokiwa-healthcare-service | 🔒 | microCMS Templates | 2026-01-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-healthcare-service) |
-| Akatsuki_homepage | 🔒 | — | 2025-08-18 | [link](https://github.com/SOOJUNBARNG/Akatsuki_homepage) |
-
 ### 👤 個人・キャリア系
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
@@ -72,30 +96,6 @@
 | Career_help | 🌐 | — | 2025-03-12 | [link](https://github.com/SOOJUNBARNG/Career_help) |
 | Typescript_template_barng_game | 🔒 | — | 2024-10-15 | [link](https://github.com/SOOJUNBARNG/Typescript_template_barng_game) |
 | Barng_hackerton | 🔒 | — | 2024-09-05 | [link](https://github.com/SOOJUNBARNG/Barng_hackerton) |
-
-### 🔧 ツール・管理系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| git_control | 🌐 | — | 2026-07-13 | [link](https://github.com/SOOJUNBARNG/git_control) |
-| All_general_data_for_barng | 🔒 | — | 2026-02-01 | [link](https://github.com/SOOJUNBARNG/All_general_data_for_barng) |
-| Graphbiz_example | 🔒 | — | 2025-06-17 | [link](https://github.com/SOOJUNBARNG/Graphbiz_example) |
-| Data_upload_and_download | 🔒 | — | 2025-03-18 | [link](https://github.com/SOOJUNBARNG/Data_upload_and_download) |
-| chromium | 🌐 | Chromium (x86-64) for Serverless Platforms | 2025-03-09 | [link](https://github.com/SOOJUNBARNG/chromium) |
-
-### 🏥 医療・病院系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| saitama-hospital-info-collector | 🔒 | — | 2026-07-13 | [link](https://github.com/SOOJUNBARNG/saitama-hospital-info-collector) |
-| Scrap_medical_job_detail_task | 🔒 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Scrap_medical_job_detail_task) |
-| Hatogaya-medical-chat-bot | 🌐 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Hatogaya-medical-chat-bot) |
-| Hatogaya_shift_automation_app | 🔒 | — | 2026-07-08 | [link](https://github.com/SOOJUNBARNG/Hatogaya_shift_automation_app) |
-| Hospital_display_video | 🔒 | — | 2026-07-07 | [link](https://github.com/SOOJUNBARNG/Hospital_display_video) |
-| THS_hospital_shift_automake_data | 🔒 | — | 2026-02-15 | [link](https://github.com/SOOJUNBARNG/THS_hospital_shift_automake_data) |
-| THS_dentist_shift_automake_data | 🔒 | — | 2025-09-24 | [link](https://github.com/SOOJUNBARNG/THS_dentist_shift_automake_data) |
-| Jpix_ocr | 🔒 | — | 2025-09-17 | [link](https://github.com/SOOJUNBARNG/Jpix_ocr) |
-| Medical_frontier_code | 🔒 | — | 2024-10-08 | [link](https://github.com/SOOJUNBARNG/Medical_frontier_code) |
 
 ### 📦 その他
 
