@@ -1,6 +1,6 @@
 # 🗂️ git_control — SOOJUNBARNG リポジトリ管理
 
-> 最終更新: 2026-07-16 03:15 UTC | 合計: 67件
+> 最終更新: 2026-07-17 03:18 UTC | 合計: 67件
 
 全リポジトリの一覧・管理スクリプトをまとめたハブリポジトリ。**このREADMEは毎日自動更新されます。**
 
@@ -32,36 +32,66 @@
 
 ## リポジトリ一覧 (67件)
 
+### 💬 LINE・通知系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| LINE_LINEWORKS_GAS_SERVER_AI_CHATSERVICE | 🔒 | — | 2026-07-17 | [link](https://github.com/SOOJUNBARNG/LINE_LINEWORKS_GAS_SERVER_AI_CHATSERVICE) |
+| LINE_TASK_CONTROL | 🔒 | — | 2026-07-15 | [link](https://github.com/SOOJUNBARNG/LINE_TASK_CONTROL) |
+| LINE_WORKS_SUMMARY | 🔒 | — | 2026-07-15 | [link](https://github.com/SOOJUNBARNG/LINE_WORKS_SUMMARY) |
+| LINE_SUMMARY_jwt | 🔒 | — | 2026-06-27 | [link](https://github.com/SOOJUNBARNG/LINE_SUMMARY_jwt) |
+| LINE_Setting_for_yrc | 🔒 | — | 2025-10-16 | [link](https://github.com/SOOJUNBARNG/LINE_Setting_for_yrc) |
+
+### 🏬 その他法人・外部案件
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| negishi_survey | 🔒 | — | 2026-07-17 | [link](https://github.com/SOOJUNBARNG/negishi_survey) |
+| Sake_selling_ecshop | 🔒 | — | 2026-07-17 | [link](https://github.com/SOOJUNBARNG/Sake_selling_ecshop) |
+| Ser_inc_HP | 🔒 | — | 2026-07-17 | [link](https://github.com/SOOJUNBARNG/Ser_inc_HP) |
+| azuma-jotform | 🔒 | — | 2026-07-15 | [link](https://github.com/SOOJUNBARNG/azuma-jotform) |
+| YRC-shukatsu-lab | 🔒 | — | 2026-07-13 | [link](https://github.com/SOOJUNBARNG/YRC-shukatsu-lab) |
+| Job_quit | 🔒 | — | 2026-02-18 | [link](https://github.com/SOOJUNBARNG/Job_quit) |
+| MA_Techno | 🔒 | — | 2026-01-22 | [link](https://github.com/SOOJUNBARNG/MA_Techno) |
+| Tokiwa_health_care_service_HP | 🔒 | — | 2025-12-13 | [link](https://github.com/SOOJUNBARNG/Tokiwa_health_care_service_HP) |
+
 ### 🏢 クリニック・法人HP系
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
+| azuma-visit-clinic-hp | 🔒 | microCMS Templates | 2026-07-17 | [link](https://github.com/SOOJUNBARNG/azuma-visit-clinic-hp) |
 | Negishi_homecare_HP | 🔒 | — | 2026-07-16 | [link](https://github.com/SOOJUNBARNG/Negishi_homecare_HP) |
-| azuma-visit-clinic-hp | 🔒 | microCMS Templates | 2026-07-14 | [link](https://github.com/SOOJUNBARNG/azuma-visit-clinic-hp) |
 | Tokiwa-healthcare-service | 🔒 | microCMS Templates | 2026-01-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-healthcare-service) |
 | Akatsuki_homepage | 🔒 | — | 2025-08-18 | [link](https://github.com/SOOJUNBARNG/Akatsuki_homepage) |
+
+### 📦 その他
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| GCP_IAM_COST_CONTROL | 🔒 | — | 2026-07-17 | [link](https://github.com/SOOJUNBARNG/GCP_IAM_COST_CONTROL) |
+| unmei48-product | 🔒 | — | 2026-07-06 | [link](https://github.com/SOOJUNBARNG/unmei48-product) |
+| qr_make_task | 🌐 | QR code generator and simple Q&A site | 2026-06-29 | [link](https://github.com/SOOJUNBARNG/qr_make_task) |
 
 ### 👔 鳩ヶ谷系
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
+| hatogaya_jobhunting | 🔒 | — | 2026-07-16 | [link](https://github.com/SOOJUNBARNG/hatogaya_jobhunting) |
 | Firebase_Hatogaya_voice | 🔒 | — | 2026-07-16 | [link](https://github.com/SOOJUNBARNG/Firebase_Hatogaya_voice) |
-| hatogaya_jobhunting | 🔒 | — | 2026-07-14 | [link](https://github.com/SOOJUNBARNG/hatogaya_jobhunting) |
 | Hatogaya_talent_management | 🔒 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Hatogaya_talent_management) |
 | Tokiwa-hatogaya-study-app | 🔒 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-hatogaya-study-app) |
 | hatogaya_jotform | 🔒 | — | 2026-02-19 | [link](https://github.com/SOOJUNBARNG/hatogaya_jotform) |
 | receipt_data_hatogaya | 🔒 | — | 2026-02-18 | [link](https://github.com/SOOJUNBARNG/receipt_data_hatogaya) |
 
-### 💬 LINE・通知系
+### 🔧 ツール・管理系
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
-| LINE_TASK_CONTROL | 🔒 | — | 2026-07-15 | [link](https://github.com/SOOJUNBARNG/LINE_TASK_CONTROL) |
-| LINE_WORKS_SUMMARY | 🔒 | — | 2026-07-15 | [link](https://github.com/SOOJUNBARNG/LINE_WORKS_SUMMARY) |
-| LINE_SUMMARY_jwt | 🔒 | — | 2026-06-27 | [link](https://github.com/SOOJUNBARNG/LINE_SUMMARY_jwt) |
-| LINE_LINEWORKS_GAS_SERVER_AI_CHATSERVICE | 🔒 | — | 2026-06-26 | [link](https://github.com/SOOJUNBARNG/LINE_LINEWORKS_GAS_SERVER_AI_CHATSERVICE) |
-| LINE_NETLIFY_Voice_recorder | 🔒 | — | 2025-11-22 | [link](https://github.com/SOOJUNBARNG/LINE_NETLIFY_Voice_recorder) |
-| LINE_Setting_for_yrc | 🔒 | — | 2025-10-16 | [link](https://github.com/SOOJUNBARNG/LINE_Setting_for_yrc) |
+| git_control | 🌐 | — | 2026-07-16 | [link](https://github.com/SOOJUNBARNG/git_control) |
+| All_general_data_for_barng | 🔒 | — | 2026-02-01 | [link](https://github.com/SOOJUNBARNG/All_general_data_for_barng) |
+| Graphbiz_example | 🔒 | — | 2025-06-17 | [link](https://github.com/SOOJUNBARNG/Graphbiz_example) |
+| Data_upload_and_download | 🔒 | — | 2025-03-18 | [link](https://github.com/SOOJUNBARNG/Data_upload_and_download) |
+| chromium | 🌐 | Chromium (x86-64) for Serverless Platforms | 2025-03-09 | [link](https://github.com/SOOJUNBARNG/chromium) |
 
 ### 💰 財務・経理系
 
@@ -70,19 +100,6 @@
 | Data_for_receipt | 🔒 | — | 2026-07-15 | [link](https://github.com/SOOJUNBARNG/Data_for_receipt) |
 | Barng_financial_projects | 🌐 | — | 2025-03-22 | [link](https://github.com/SOOJUNBARNG/Barng_financial_projects) |
 | StockSharp_barng | 🌐 | Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options). | 2025-03-13 | [link](https://github.com/SOOJUNBARNG/StockSharp_barng) |
-
-### 🏬 その他法人・外部案件
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| azuma-jotform | 🔒 | — | 2026-07-15 | [link](https://github.com/SOOJUNBARNG/azuma-jotform) |
-| negishi_survey | 🔒 | — | 2026-07-15 | [link](https://github.com/SOOJUNBARNG/negishi_survey) |
-| YRC-shukatsu-lab | 🔒 | — | 2026-07-13 | [link](https://github.com/SOOJUNBARNG/YRC-shukatsu-lab) |
-| Ser_inc_HP | 🔒 | — | 2026-06-29 | [link](https://github.com/SOOJUNBARNG/Ser_inc_HP) |
-| Job_quit | 🔒 | — | 2026-02-18 | [link](https://github.com/SOOJUNBARNG/Job_quit) |
-| MA_Techno | 🔒 | — | 2026-01-22 | [link](https://github.com/SOOJUNBARNG/MA_Techno) |
-| Sake_selling_ecshop | 🔒 | — | 2026-01-22 | [link](https://github.com/SOOJUNBARNG/Sake_selling_ecshop) |
-| Tokiwa_health_care_service_HP | 🔒 | — | 2025-12-13 | [link](https://github.com/SOOJUNBARNG/Tokiwa_health_care_service_HP) |
 
 ### 🏥 医療・病院系
 
@@ -97,16 +114,6 @@
 | Jpix_ocr | 🔒 | — | 2025-09-17 | [link](https://github.com/SOOJUNBARNG/Jpix_ocr) |
 | Medical_frontier_code | 🔒 | — | 2024-10-08 | [link](https://github.com/SOOJUNBARNG/Medical_frontier_code) |
 
-### 🔧 ツール・管理系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| git_control | 🌐 | — | 2026-07-15 | [link](https://github.com/SOOJUNBARNG/git_control) |
-| All_general_data_for_barng | 🔒 | — | 2026-02-01 | [link](https://github.com/SOOJUNBARNG/All_general_data_for_barng) |
-| Graphbiz_example | 🔒 | — | 2025-06-17 | [link](https://github.com/SOOJUNBARNG/Graphbiz_example) |
-| Data_upload_and_download | 🔒 | — | 2025-03-18 | [link](https://github.com/SOOJUNBARNG/Data_upload_and_download) |
-| chromium | 🌐 | Chromium (x86-64) for Serverless Platforms | 2025-03-09 | [link](https://github.com/SOOJUNBARNG/chromium) |
-
 ### 👤 個人・キャリア系
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
@@ -115,13 +122,6 @@
 | Career_help | 🌐 | — | 2025-03-12 | [link](https://github.com/SOOJUNBARNG/Career_help) |
 | Typescript_template_barng_game | 🔒 | — | 2024-10-15 | [link](https://github.com/SOOJUNBARNG/Typescript_template_barng_game) |
 | Barng_hackerton | 🔒 | — | 2024-09-05 | [link](https://github.com/SOOJUNBARNG/Barng_hackerton) |
-
-### 📦 その他
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| unmei48-product | 🔒 | — | 2026-07-06 | [link](https://github.com/SOOJUNBARNG/unmei48-product) |
-| qr_make_task | 🌐 | QR code generator and simple Q&A site | 2026-06-29 | [link](https://github.com/SOOJUNBARNG/qr_make_task) |
 
 ### 🤖 AI・自動化系
 
