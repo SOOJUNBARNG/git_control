@@ -1,6 +1,6 @@
 # 🗂️ git_control — SOOJUNBARNG リポジトリ管理
 
-> 最終更新: 2026-07-18 02:55 UTC | 合計: 67件
+> 最終更新: 2026-07-18 06:25 UTC | 合計: 67件
 
 全リポジトリの一覧・管理スクリプトをまとめたハブリポジトリ。**このREADMEは毎日自動更新されます。**
 
@@ -36,10 +36,20 @@
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
-| Negishi_homecare_HP | 🔒 | — | 2026-07-17 | [link](https://github.com/SOOJUNBARNG/Negishi_homecare_HP) |
+| Negishi_homecare_HP | 🔒 | — | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Negishi_homecare_HP) |
 | azuma-visit-clinic-hp | 🔒 | microCMS Templates | 2026-07-17 | [link](https://github.com/SOOJUNBARNG/azuma-visit-clinic-hp) |
 | Tokiwa-healthcare-service | 🔒 | microCMS Templates | 2026-01-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-healthcare-service) |
 | Akatsuki_homepage | 🔒 | — | 2025-08-18 | [link](https://github.com/SOOJUNBARNG/Akatsuki_homepage) |
+
+### 🔧 ツール・管理系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| git_control | 🌐 | — | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/git_control) |
+| All_general_data_for_barng | 🔒 | — | 2026-02-01 | [link](https://github.com/SOOJUNBARNG/All_general_data_for_barng) |
+| Graphbiz_example | 🔒 | — | 2025-06-17 | [link](https://github.com/SOOJUNBARNG/Graphbiz_example) |
+| Data_upload_and_download | 🔒 | — | 2025-03-18 | [link](https://github.com/SOOJUNBARNG/Data_upload_and_download) |
+| chromium | 🌐 | Chromium (x86-64) for Serverless Platforms | 2025-03-09 | [link](https://github.com/SOOJUNBARNG/chromium) |
 
 ### 💬 LINE・通知系
 
@@ -58,16 +68,6 @@
 | GCP_IAM_COST_CONTROL | 🔒 | — | 2026-07-17 | [link](https://github.com/SOOJUNBARNG/GCP_IAM_COST_CONTROL) |
 | unmei48-product | 🔒 | — | 2026-07-06 | [link](https://github.com/SOOJUNBARNG/unmei48-product) |
 | qr_make_task | 🌐 | QR code generator and simple Q&A site | 2026-06-29 | [link](https://github.com/SOOJUNBARNG/qr_make_task) |
-
-### 🔧 ツール・管理系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| git_control | 🌐 | — | 2026-07-17 | [link](https://github.com/SOOJUNBARNG/git_control) |
-| All_general_data_for_barng | 🔒 | — | 2026-02-01 | [link](https://github.com/SOOJUNBARNG/All_general_data_for_barng) |
-| Graphbiz_example | 🔒 | — | 2025-06-17 | [link](https://github.com/SOOJUNBARNG/Graphbiz_example) |
-| Data_upload_and_download | 🔒 | — | 2025-03-18 | [link](https://github.com/SOOJUNBARNG/Data_upload_and_download) |
-| chromium | 🌐 | Chromium (x86-64) for Serverless Platforms | 2025-03-09 | [link](https://github.com/SOOJUNBARNG/chromium) |
 
 ### 🏬 その他法人・外部案件
 
