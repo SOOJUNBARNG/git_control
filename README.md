@@ -1,6 +1,6 @@
 # 🗂️ git_control — SOOJUNBARNG リポジトリ管理
 
-> 最終更新: 2026-07-18 09:00 UTC | 合計: 67件
+> 最終更新: 2026-07-18 09:03 UTC | 合計: 67件
 
 全リポジトリの一覧・管理スクリプトをまとめたハブリポジトリ。**このREADMEは毎日自動更新されます。**
 
@@ -46,12 +46,12 @@
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
-| Job_quit | 🔒 | — | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Job_quit) |
+| YRC-shukatsu-lab | 🔒 | const firebaseConfig ={ | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/YRC-shukatsu-lab) |
+| Job_quit | 🔒 | 給与・勤務状況・生年月日・住所などの人事データから従業員の退職リスクをRandomForest+SHAPで予測し、 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Job_quit) |
 | negishi_survey | 🔒 | Firebase Hosting上で公開する、利用者・ご家族向けの満足度調査フォーム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/negishi_survey) |
 | azuma-jotform | 🔒 | Firebase Hosting上で公開している、患者向けの満足度調査フォーム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/azuma-jotform) |
 | Ser_inc_HP | 🔒 | Corporate website for SER Inc. — a Tokyo-based bridge between Korean tech/culture and the Japanese market. | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Ser_inc_HP) |
 | Sake_selling_ecshop | 🔒 | 韓国語話者向けの日本酒販売ECサイト（React + Vite + Firebase）。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Sake_selling_ecshop) |
-| YRC-shukatsu-lab | 🔒 | — | 2026-07-13 | [link](https://github.com/SOOJUNBARNG/YRC-shukatsu-lab) |
 | MA_Techno | 🔒 | — | 2026-01-22 | [link](https://github.com/SOOJUNBARNG/MA_Techno) |
 | Tokiwa_health_care_service_HP | 🔒 | — | 2025-12-13 | [link](https://github.com/SOOJUNBARNG/Tokiwa_health_care_service_HP) |
 
@@ -59,9 +59,9 @@
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
+| hatogaya_jobhunting | 🔒 | First, run the development server: | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/hatogaya_jobhunting) |
 | Hatogaya_knowledge_share_web_system | 🔒 | — | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hatogaya_knowledge_share_web_system) |
 | Hatogaya_talent_management | 🔒 | jinjer × Claude APIで構築した人材管理システム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hatogaya_talent_management) |
-| hatogaya_jobhunting | 🔒 | — | 2026-07-16 | [link](https://github.com/SOOJUNBARNG/hatogaya_jobhunting) |
 | Firebase_Hatogaya_voice | 🔒 | — | 2026-07-16 | [link](https://github.com/SOOJUNBARNG/Firebase_Hatogaya_voice) |
 | Tokiwa-hatogaya-study-app | 🔒 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-hatogaya-study-app) |
 | hatogaya_jotform | 🔒 | — | 2026-02-19 | [link](https://github.com/SOOJUNBARNG/hatogaya_jotform) |
@@ -71,7 +71,7 @@
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
-| Negishi_homecare_HP | 🔒 | — | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Negishi_homecare_HP) |
+| Negishi_homecare_HP | 🔒 | 本番URL: https://negishi-homecare.web.app | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Negishi_homecare_HP) |
 | azuma-visit-clinic-hp | 🔒 | microCMS Templates | 2026-07-17 | [link](https://github.com/SOOJUNBARNG/azuma-visit-clinic-hp) |
 | Tokiwa-healthcare-service | 🔒 | microCMS Templates | 2026-01-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-healthcare-service) |
 
@@ -105,14 +105,14 @@
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
+| Medical_frontier_code | 🔒 | これは房の個人レポジトリーではあるが、すべて会社の資産であり個人での利用を厳禁する。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Medical_frontier_code) |
+| THS_dentist_shift_automake_data | 🔒 | DH（歯科衛生士） | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/THS_dentist_shift_automake_data) |
 | saitama-hospital-info-collector | 🔒 | 埼玉県の在宅療養支援診療所・病院データをJMAPから収集し、Gemini APIで要約・特徴タグ付けするパイプライン。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/saitama-hospital-info-collector) |
 | Scrap_medical_job_detail_task | 🔒 | 医療系求人サイトjob-medley.comから求人データをスクレイピングし、Excelに整形するパイプライン。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Scrap_medical_job_detail_task) |
 | Hospital_display_video | 🔒 | 診察の呼出し状況をリアルタイム表示する、病院向け受付・サイネージシステム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hospital_display_video) |
 | Hatogaya_shift_automation_app | 🔒 | シフト自動作成システムへの情報入力・管理Webアプリ。希望休・制約をGoogle Sheetsに登録し、OR-Toolsでシフト自動生成。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hatogaya_shift_automation_app) |
 | Hatogaya-medical-chat-bot | 🌐 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Hatogaya-medical-chat-bot) |
-| THS_dentist_shift_automake_data | 🔒 | — | 2025-09-24 | [link](https://github.com/SOOJUNBARNG/THS_dentist_shift_automake_data) |
 | Jpix_ocr | 🔒 | — | 2025-09-17 | [link](https://github.com/SOOJUNBARNG/Jpix_ocr) |
-| Medical_frontier_code | 🔒 | — | 2024-10-08 | [link](https://github.com/SOOJUNBARNG/Medical_frontier_code) |
 
 ### 👤 個人・キャリア系
 
@@ -127,13 +127,13 @@
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
+| ai_diary_app | 🔒 | This project is a starting point for a Flutter application. | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/ai_diary_app) |
+| Route_ai_develop | 🔒 | python main.py csv | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Route_ai_develop) |
+| Kenseikai_financial_data_rpa | 🔒 | python -m pyinstaller --onefile --windowed --icon=THSRPAicon.ico --add-data="THSRPAicon.ico:." thsmain.py | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Kenseikai_financial_data_rpa) |
+| AI_Voice_bot_netlify | 🔒 | User -> Node.js (このコード) -> Dialogflow CX (Intent) -> 固定の回答 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/AI_Voice_bot_netlify) |
 | Auto-translation-task | 🔒 | 日本語ファイル（PowerPoint / Word / Excel）を Gemini API で自動翻訳するツール。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Auto-translation-task) |
 | Writing_novel_korean | 🔒 | — | 2026-03-12 | [link](https://github.com/SOOJUNBARNG/Writing_novel_korean) |
-| AI_Voice_bot_netlify | 🔒 | — | 2026-01-22 | [link](https://github.com/SOOJUNBARNG/AI_Voice_bot_netlify) |
 | Video_generation | 🔒 | — | 2025-12-13 | [link](https://github.com/SOOJUNBARNG/Video_generation) |
-| Kenseikai_financial_data_rpa | 🔒 | — | 2025-11-07 | [link](https://github.com/SOOJUNBARNG/Kenseikai_financial_data_rpa) |
-| Route_ai_develop | 🔒 | — | 2025-10-13 | [link](https://github.com/SOOJUNBARNG/Route_ai_develop) |
-| ai_diary_app | 🔒 | — | 2025-07-22 | [link](https://github.com/SOOJUNBARNG/ai_diary_app) |
 | PPTAgent_barng | 🌐 | PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides | 2025-03-20 | [link](https://github.com/SOOJUNBARNG/PPTAgent_barng) |
 | nanobrowser | 🌐 | Open-source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator. | 2025-03-12 | [link](https://github.com/SOOJUNBARNG/nanobrowser) |
 | novel-writer-korean | 🌐 | Automated LLM novelist | 2025-03-10 | [link](https://github.com/SOOJUNBARNG/novel-writer-korean) |
