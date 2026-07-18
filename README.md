@@ -1,6 +1,6 @@
 # 🗂️ git_control — SOOJUNBARNG リポジトリ管理
 
-> 最終更新: 2026-07-18 06:40 UTC | 合計: 66件
+> 最終更新: 2026-07-18 08:58 UTC | 合計: 67件
 
 全リポジトリの一覧・管理スクリプトをまとめたハブリポジトリ。**このREADMEは毎日自動更新されます。**
 
@@ -30,15 +30,7 @@
 
 ---
 
-## リポジトリ一覧 (66件)
-
-### 🏢 クリニック・法人HP系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| Negishi_homecare_HP | 🔒 | — | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Negishi_homecare_HP) |
-| azuma-visit-clinic-hp | 🔒 | microCMS Templates | 2026-07-17 | [link](https://github.com/SOOJUNBARNG/azuma-visit-clinic-hp) |
-| Tokiwa-healthcare-service | 🔒 | microCMS Templates | 2026-01-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-healthcare-service) |
+## リポジトリ一覧 (67件)
 
 ### 🔧 ツール・管理系
 
@@ -49,6 +41,39 @@
 | All_general_data_for_barng | 🔒 | — | 2026-02-01 | [link](https://github.com/SOOJUNBARNG/All_general_data_for_barng) |
 | Graphbiz_example | 🔒 | — | 2025-06-17 | [link](https://github.com/SOOJUNBARNG/Graphbiz_example) |
 | chromium | 🌐 | Chromium (x86-64) for Serverless Platforms | 2025-03-09 | [link](https://github.com/SOOJUNBARNG/chromium) |
+
+### 🏬 その他法人・外部案件
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| Job_quit | 🔒 | — | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Job_quit) |
+| negishi_survey | 🔒 | Firebase Hosting上で公開する、利用者・ご家族向けの満足度調査フォーム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/negishi_survey) |
+| azuma-jotform | 🔒 | Firebase Hosting上で公開している、患者向けの満足度調査フォーム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/azuma-jotform) |
+| Ser_inc_HP | 🔒 | Corporate website for SER Inc. — a Tokyo-based bridge between Korean tech/culture and the Japanese market. | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Ser_inc_HP) |
+| Sake_selling_ecshop | 🔒 | 韓国語話者向けの日本酒販売ECサイト（React + Vite + Firebase）。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Sake_selling_ecshop) |
+| YRC-shukatsu-lab | 🔒 | — | 2026-07-13 | [link](https://github.com/SOOJUNBARNG/YRC-shukatsu-lab) |
+| MA_Techno | 🔒 | — | 2026-01-22 | [link](https://github.com/SOOJUNBARNG/MA_Techno) |
+| Tokiwa_health_care_service_HP | 🔒 | — | 2025-12-13 | [link](https://github.com/SOOJUNBARNG/Tokiwa_health_care_service_HP) |
+
+### 👔 鳩ヶ谷系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| Hatogaya_knowledge_share_web_system | 🔒 | — | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hatogaya_knowledge_share_web_system) |
+| Hatogaya_talent_management | 🔒 | jinjer × Claude APIで構築した人材管理システム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hatogaya_talent_management) |
+| hatogaya_jobhunting | 🔒 | — | 2026-07-16 | [link](https://github.com/SOOJUNBARNG/hatogaya_jobhunting) |
+| Firebase_Hatogaya_voice | 🔒 | — | 2026-07-16 | [link](https://github.com/SOOJUNBARNG/Firebase_Hatogaya_voice) |
+| Tokiwa-hatogaya-study-app | 🔒 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-hatogaya-study-app) |
+| hatogaya_jotform | 🔒 | — | 2026-02-19 | [link](https://github.com/SOOJUNBARNG/hatogaya_jotform) |
+| receipt_data_hatogaya | 🔒 | — | 2026-02-18 | [link](https://github.com/SOOJUNBARNG/receipt_data_hatogaya) |
+
+### 🏢 クリニック・法人HP系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| Negishi_homecare_HP | 🔒 | — | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Negishi_homecare_HP) |
+| azuma-visit-clinic-hp | 🔒 | microCMS Templates | 2026-07-17 | [link](https://github.com/SOOJUNBARNG/azuma-visit-clinic-hp) |
+| Tokiwa-healthcare-service | 🔒 | microCMS Templates | 2026-01-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-healthcare-service) |
 
 ### 💬 LINE・通知系
 
@@ -67,30 +92,6 @@
 | unmei48-product | 🔒 | 運命48 — 四柱推命ベースの縁結びアプリ（Flutter + Firebase）。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/unmei48-product) |
 | GCP_IAM_COST_CONTROL | 🔒 | GCP/Firebaseの支払い状況を項目別に把握し、プロジェクトをローカルGitリポジトリに紐づけて一覧できるダッシュボードツール。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/GCP_IAM_COST_CONTROL) |
 | qr_make_task | 🌐 | QR code generator and simple Q&A site | 2026-06-29 | [link](https://github.com/SOOJUNBARNG/qr_make_task) |
-
-### 🏬 その他法人・外部案件
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| negishi_survey | 🔒 | Firebase Hosting上で公開する、利用者・ご家族向けの満足度調査フォーム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/negishi_survey) |
-| azuma-jotform | 🔒 | Firebase Hosting上で公開している、患者向けの満足度調査フォーム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/azuma-jotform) |
-| Ser_inc_HP | 🔒 | Corporate website for SER Inc. — a Tokyo-based bridge between Korean tech/culture and the Japanese market. | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Ser_inc_HP) |
-| Sake_selling_ecshop | 🔒 | 韓国語話者向けの日本酒販売ECサイト（React + Vite + Firebase）。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Sake_selling_ecshop) |
-| YRC-shukatsu-lab | 🔒 | — | 2026-07-13 | [link](https://github.com/SOOJUNBARNG/YRC-shukatsu-lab) |
-| Job_quit | 🔒 | — | 2026-02-18 | [link](https://github.com/SOOJUNBARNG/Job_quit) |
-| MA_Techno | 🔒 | — | 2026-01-22 | [link](https://github.com/SOOJUNBARNG/MA_Techno) |
-| Tokiwa_health_care_service_HP | 🔒 | — | 2025-12-13 | [link](https://github.com/SOOJUNBARNG/Tokiwa_health_care_service_HP) |
-
-### 👔 鳩ヶ谷系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| Hatogaya_talent_management | 🔒 | jinjer × Claude APIで構築した人材管理システム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hatogaya_talent_management) |
-| hatogaya_jobhunting | 🔒 | — | 2026-07-16 | [link](https://github.com/SOOJUNBARNG/hatogaya_jobhunting) |
-| Firebase_Hatogaya_voice | 🔒 | — | 2026-07-16 | [link](https://github.com/SOOJUNBARNG/Firebase_Hatogaya_voice) |
-| Tokiwa-hatogaya-study-app | 🔒 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-hatogaya-study-app) |
-| hatogaya_jotform | 🔒 | — | 2026-02-19 | [link](https://github.com/SOOJUNBARNG/hatogaya_jotform) |
-| receipt_data_hatogaya | 🔒 | — | 2026-02-18 | [link](https://github.com/SOOJUNBARNG/receipt_data_hatogaya) |
 
 ### 💰 財務・経理系
 
