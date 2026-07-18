@@ -25,10 +25,14 @@ jobs:
 
           OWNER = "SOOJUNBARNG"
 
-          repos = json.loads(subprocess.run(
+          list_result = subprocess.run(
               ["gh", "repo", "list", OWNER, "--limit", "200", "--json", "name,description"],
-              capture_output=True, text=True, check=True
-          ).stdout)
+              capture_output=True, text=True
+          )
+          if list_result.returncode != 0:
+              print("DEBUG stderr:", list_result.stderr)
+              raise SystemExit(1)
+          repos = json.loads(list_result.stdout)
 
           missing = [r["name"] for r in repos if not r.get("description")]
           print(f"About未設定: {len(missing)}件")
