@@ -2,7 +2,7 @@ name: Update README
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 毎日深夜0時（UTC）に自動実行
+    - cron: '0 0 * * 1'  # 毎週月曜0時（UTC）に自動実行
   workflow_dispatch:       # 手動実行も可能
 
 jobs:
@@ -13,6 +13,105 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+
+      - name: About説明文が未設定のリポジトリにREADMEから自動設定
+        env:
+          # 説明の読み取りだけでなく repo edit (Administration write) が必要なため
+          # secrets.GH_PAT には Administration: Read and write 権限も付与しておくこと
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          python3 << 'PYEOF'
+          import json, subprocess, re, base64
+
+          OWNER = "SOOJUNBARNG"
+
+          repos = json.loads(subprocess.run(
+              ["gh", "repo", "list", OWNER, "--limit", "200", "--json", "name,description"],
+              capture_output=True, text=True, check=True
+          ).stdout)
+
+          missing = [r["name"] for r in repos if not r.get("description")]
+          print(f"About未設定: {len(missing)}件")
+
+          # 説明文として使わない(コード/URL/ボイラープレート/シークレットらしき行)を弾くルール
+          secret_pattern = re.compile(
+              r"AIza[0-9A-Za-z_\-]{20,}|sk-[A-Za-z0-9]{20,}|gh[pousr]_[A-Za-z0-9]{30,}"
+              r"|AKIA[0-9A-Z]{12,}|eyJ[A-Za-z0-9_\-]{10,}\.[A-Za-z0-9_\-]{10,}"
+          )
+          code_pattern = re.compile(
+              r"^(//|#!|const |import |function |class |def |gcloud |pip install|npm |pyinstaller|\$)"
+          )
+          boilerplate_snippets = [
+              "a new flutter project",
+              "bootstrapped with",
+              "getting started",
+              "this is a next.js project",
+          ]
+
+          def extract_description(owner, repo):
+              result = subprocess.run(
+                  ["gh", "api", f"repos/{owner}/{repo}/readme", "--jq", ".content"],
+                  capture_output=True, text=True
+              )
+              if result.returncode != 0 or not result.stdout.strip():
+                  return None, None
+              try:
+                  text = base64.b64decode(result.stdout.strip()).decode("utf-8", "ignore")
+              except Exception:
+                  return None, None
+
+              in_code_block = False
+              for raw_line in text.split("\n"):
+                  line = raw_line.strip()
+                  if line.startswith("```"):
+                      in_code_block = not in_code_block
+                      continue
+                  if in_code_block or not line:
+                      continue
+                  if line.startswith(("#", "![", "[", "<", "---", "===")):
+                      continue
+                  if secret_pattern.search(line):
+                      return None, "secret-like-string-detected"
+                  if code_pattern.match(line):
+                      continue
+                  if line.lower().startswith("http"):
+                      continue
+                  clean = re.sub(r"[*_`]", "", line).strip()
+                  if len(clean) < 8:
+                      continue
+                  if any(b in clean.lower() for b in boilerplate_snippets):
+                      continue
+                  if len(clean) > 140:
+                      clean = clean[:137] + "..."
+                  return clean, None
+              return None, None
+
+          applied, skipped, alerts = [], [], []
+          for name in missing:
+              desc, reason = extract_description(OWNER, name)
+              if reason == "secret-like-string-detected":
+                  alerts.append(name)
+                  continue
+              if not desc:
+                  skipped.append(name)
+                  continue
+              edit = subprocess.run(
+                  ["gh", "repo", "edit", f"{OWNER}/{name}", "--description", desc],
+                  capture_output=True, text=True
+              )
+              if edit.returncode == 0:
+                  applied.append((name, desc))
+              else:
+                  print(f"⚠️ 設定失敗: {name}: {edit.stderr.strip()}")
+
+          print(f"✅ 自動設定: {len(applied)}件")
+          for name, desc in applied:
+              print(f"  - {name}: {desc}")
+          print(f"⏭️ スキップ(候補抽出不可): {len(skipped)}件")
+          if alerts:
+              print(f"🚨 README内にシークレットらしき文字列を検出したためスキップ: {alerts}")
+              print("::warning::README内にAPIキー等のシークレットらしき文字列を検出しました。該当リポジトリを確認し、必要ならキーをローテーションしてください。")
+          PYEOF
 
       - name: 全リポジトリ取得 & README生成
         env:

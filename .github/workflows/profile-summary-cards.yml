@@ -2,7 +2,7 @@ name: GitHub Profile Summary Cards
 
 on:
   schedule:
-    - cron: '0 1 * * *'  # 毎日1時（UTC）に自動実行
+    - cron: '0 1 * * 1'  # 毎週月曜1時（UTC）に自動実行
   workflow_dispatch:
 
 jobs:
