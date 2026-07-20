@@ -1,6 +1,6 @@
 # 🗂️ git_control — SOOJUNBARNG リポジトリ管理
 
-> 最終更新: 2026-07-18 09:03 UTC | 合計: 67件
+> 最終更新: 2026-07-20 03:18 UTC | 合計: 68件
 
 全リポジトリの一覧・管理スクリプトをまとめたハブリポジトリ。**このREADMEは毎日自動更新されます。**
 
@@ -30,7 +30,16 @@
 
 ---
 
-## リポジトリ一覧 (67件)
+## リポジトリ一覧 (68件)
+
+### 📦 その他
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| Google_drive_file_directory_change | 🔒 | — | 2026-07-19 | [link](https://github.com/SOOJUNBARNG/Google_drive_file_directory_change) |
+| unmei48-product | 🔒 | 運命48 — 四柱推命ベースの縁結びアプリ（Flutter + Firebase）。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/unmei48-product) |
+| GCP_IAM_COST_CONTROL | 🔒 | GCP/Firebaseの支払い状況を項目別に把握し、プロジェクトをローカルGitリポジトリに紐づけて一覧できるダッシュボードツール。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/GCP_IAM_COST_CONTROL) |
+| qr_make_task | 🌐 | QR code generator and simple Q&A site | 2026-06-29 | [link](https://github.com/SOOJUNBARNG/qr_make_task) |
 
 ### 🔧 ツール・管理系
 
@@ -46,7 +55,7 @@
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
-| YRC-shukatsu-lab | 🔒 | const firebaseConfig ={ | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/YRC-shukatsu-lab) |
+| YRC-shukatsu-lab | 🔒 | const firebaseConfig ={ | 2026-07-20 | [link](https://github.com/SOOJUNBARNG/YRC-shukatsu-lab) |
 | Job_quit | 🔒 | 給与・勤務状況・生年月日・住所などの人事データから従業員の退職リスクをRandomForest+SHAPで予測し、 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Job_quit) |
 | negishi_survey | 🔒 | Firebase Hosting上で公開する、利用者・ご家族向けの満足度調査フォーム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/negishi_survey) |
 | azuma-jotform | 🔒 | Firebase Hosting上で公開している、患者向けの満足度調査フォーム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/azuma-jotform) |
@@ -59,7 +68,7 @@
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
-| hatogaya_jobhunting | 🔒 | First, run the development server: | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/hatogaya_jobhunting) |
+| hatogaya_jobhunting | 🔒 | First, run the development server: | 2026-07-20 | [link](https://github.com/SOOJUNBARNG/hatogaya_jobhunting) |
 | Hatogaya_knowledge_share_web_system | 🔒 | — | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hatogaya_knowledge_share_web_system) |
 | Hatogaya_talent_management | 🔒 | jinjer × Claude APIで構築した人材管理システム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hatogaya_talent_management) |
 | Firebase_Hatogaya_voice | 🔒 | — | 2026-07-16 | [link](https://github.com/SOOJUNBARNG/Firebase_Hatogaya_voice) |
@@ -71,7 +80,7 @@
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
-| Negishi_homecare_HP | 🔒 | 本番URL: https://negishi-homecare.web.app | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Negishi_homecare_HP) |
+| Negishi_homecare_HP | 🔒 | 本番URL: https://negishi-homecare.web.app | 2026-07-20 | [link](https://github.com/SOOJUNBARNG/Negishi_homecare_HP) |
 | azuma-visit-clinic-hp | 🔒 | microCMS Templates | 2026-07-17 | [link](https://github.com/SOOJUNBARNG/azuma-visit-clinic-hp) |
 | Tokiwa-healthcare-service | 🔒 | microCMS Templates | 2026-01-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-healthcare-service) |
 
@@ -85,14 +94,6 @@
 | LINE_SUMMARY_jwt | 🔒 | — | 2026-06-27 | [link](https://github.com/SOOJUNBARNG/LINE_SUMMARY_jwt) |
 | LINE_Setting_for_yrc | 🔒 | — | 2025-10-16 | [link](https://github.com/SOOJUNBARNG/LINE_Setting_for_yrc) |
 
-### 📦 その他
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| unmei48-product | 🔒 | 運命48 — 四柱推命ベースの縁結びアプリ（Flutter + Firebase）。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/unmei48-product) |
-| GCP_IAM_COST_CONTROL | 🔒 | GCP/Firebaseの支払い状況を項目別に把握し、プロジェクトをローカルGitリポジトリに紐づけて一覧できるダッシュボードツール。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/GCP_IAM_COST_CONTROL) |
-| qr_make_task | 🌐 | QR code generator and simple Q&A site | 2026-06-29 | [link](https://github.com/SOOJUNBARNG/qr_make_task) |
-
 ### 💰 財務・経理系
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
@@ -105,8 +106,8 @@
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
+| THS_dentist_shift_automake_data | 🔒 | DH（歯科衛生士） | 2026-07-20 | [link](https://github.com/SOOJUNBARNG/THS_dentist_shift_automake_data) |
 | Medical_frontier_code | 🔒 | これは房の個人レポジトリーではあるが、すべて会社の資産であり個人での利用を厳禁する。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Medical_frontier_code) |
-| THS_dentist_shift_automake_data | 🔒 | DH（歯科衛生士） | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/THS_dentist_shift_automake_data) |
 | saitama-hospital-info-collector | 🔒 | 埼玉県の在宅療養支援診療所・病院データをJMAPから収集し、Gemini APIで要約・特徴タグ付けするパイプライン。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/saitama-hospital-info-collector) |
 | Scrap_medical_job_detail_task | 🔒 | 医療系求人サイトjob-medley.comから求人データをスクレイピングし、Excelに整形するパイプライン。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Scrap_medical_job_detail_task) |
 | Hospital_display_video | 🔒 | 診察の呼出し状況をリアルタイム表示する、病院向け受付・サイネージシステム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hospital_display_video) |
@@ -127,9 +128,9 @@
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
-| ai_diary_app | 🔒 | This project is a starting point for a Flutter application. | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/ai_diary_app) |
-| Route_ai_develop | 🔒 | python main.py csv | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Route_ai_develop) |
-| Kenseikai_financial_data_rpa | 🔒 | python -m pyinstaller --onefile --windowed --icon=THSRPAicon.ico --add-data="THSRPAicon.ico:." thsmain.py | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Kenseikai_financial_data_rpa) |
+| ai_diary_app | 🔒 | This project is a starting point for a Flutter application. | 2026-07-20 | [link](https://github.com/SOOJUNBARNG/ai_diary_app) |
+| Kenseikai_financial_data_rpa | 🔒 | python -m pyinstaller --onefile --windowed --icon=THSRPAicon.ico --add-data="THSRPAicon.ico:." thsmain.py | 2026-07-20 | [link](https://github.com/SOOJUNBARNG/Kenseikai_financial_data_rpa) |
+| Route_ai_develop | 🔒 | python main.py csv | 2026-07-20 | [link](https://github.com/SOOJUNBARNG/Route_ai_develop) |
 | AI_Voice_bot_netlify | 🔒 | User -> Node.js (このコード) -> Dialogflow CX (Intent) -> 固定の回答 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/AI_Voice_bot_netlify) |
 | Auto-translation-task | 🔒 | 日本語ファイル（PowerPoint / Word / Excel）を Gemini API で自動翻訳するツール。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Auto-translation-task) |
 | Writing_novel_korean | 🔒 | — | 2026-03-12 | [link](https://github.com/SOOJUNBARNG/Writing_novel_korean) |
