@@ -1,6 +1,6 @@
 # 🗂️ git_control — SOOJUNBARNG リポジトリ管理
 
-> 最終更新: 2026-07-21 10:56 UTC | 合計: 67件
+> 最終更新: 2026-07-21 12:40 UTC | 合計: 63件
 
 全リポジトリの一覧・管理スクリプトをまとめたハブリポジトリ。**このREADMEは毎日自動更新されます。**
 
@@ -30,12 +30,45 @@
 
 ---
 
-## リポジトリ一覧 (67件)
+## リポジトリ一覧 (63件)
+
+### 📊 データ・スクレイピング系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| customer_area_visualization_task | 🔒 | 顧客住所を緯度経度に変換し、埼玉県・東京都エリアでの分布をインタラクティブ地図で可視化するツール | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/customer_area_visualization_task) |
+| data_visualization_task | 🔒 | A collection of Python scripts exploring data visualization and analysis techniques: association rules, decision trees, geographic mapping, network graphs, Sankey diagrams, and waterfall charts. | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/data_visualization_task) |
+| suumo_rental_scraper_task | 🔒 | — | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/suumo_rental_scraper_task) |
+| Scrap_for_park_sub | 🔒 | — | 2026-05-13 | [link](https://github.com/SOOJUNBARNG/Scrap_for_park_sub) |
+| Scrap_for_park | 🔒 | — | 2026-05-03 | [link](https://github.com/SOOJUNBARNG/Scrap_for_park) |
+| Geocoding_visualization | 🔒 | — | 2026-01-08 | [link](https://github.com/SOOJUNBARNG/Geocoding_visualization) |
+| Text_analysis_mf | 🔒 | — | 2025-04-08 | [link](https://github.com/SOOJUNBARNG/Text_analysis_mf) |
+
+### 🏢 クリニック・法人HP系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| Negishi_homecare_HP | 🔒 | 空室状況（getVacancy） | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/Negishi_homecare_HP) |
+| azuma-visit-clinic-hp | 🔒 | microCMS Templates | 2026-07-17 | [link](https://github.com/SOOJUNBARNG/azuma-visit-clinic-hp) |
+| Tokiwa-healthcare-service | 🔒 | microCMS Templates | 2026-01-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-healthcare-service) |
+
+### 🏬 その他法人・外部案件
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| MA_Techno | 🔒 | 企業リストのスクレイピングを支援するスクリプト集 | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/MA_Techno) |
+| YRC-shukatsu-lab | 🔒 | — | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/YRC-shukatsu-lab) |
+| Job_quit | 🔒 | 給与・勤務状況・生年月日・住所などの人事データから従業員の退職リスクをRandomForest+SHAPで予測し、 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Job_quit) |
+| negishi_survey | 🔒 | Firebase Hosting上で公開する、利用者・ご家族向けの満足度調査フォーム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/negishi_survey) |
+| azuma-jotform | 🔒 | Firebase Hosting上で公開している、患者向けの満足度調査フォーム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/azuma-jotform) |
+| Ser_inc_HP | 🔒 | Corporate website for SER Inc. — a Tokyo-based bridge between Korean tech/culture and the Japanese market. | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Ser_inc_HP) |
+| Sake_selling_ecshop | 🔒 | 韓国語話者向けの日本酒販売ECサイト（React + Vite + Firebase）。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Sake_selling_ecshop) |
 
 ### 📦 その他
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
+| image_bg_task | 🌐 | ロゴ・ブランド画像の下処理用ツールキット：背景除去、自動クロップ、ICO/SVG変換 | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/image_bg_task) |
 | auto_contact_form_task | 🔒 | AIでお問い合わせフォームを自動検出・入力する営業自動化ツール（Selenium + Claude API） | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/auto_contact_form_task) |
 | Google_ads_control | 🔒 | Google Ads API を使い、月間予算目標に合わせてキャンペーン予算を自動調整するPythonスクリプト | 2026-07-20 | [link](https://github.com/SOOJUNBARNG/Google_ads_control) |
 | Google_drive_file_directory_change | 🔒 | 個人のGoogle Driveのファイル・フォルダを自動整理するPythonツール（拡張子/キーワード別振り分け、重複検出、リネーム整形、ドライラン対応） | 2026-07-20 | [link](https://github.com/SOOJUNBARNG/Google_drive_file_directory_change) |
@@ -44,18 +77,18 @@
 | GCP_IAM_COST_CONTROL | 🔒 | GCP/Firebaseの支払い状況を項目別に把握し、プロジェクトをローカルGitリポジトリに紐づけて一覧できるダッシュボードツール。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/GCP_IAM_COST_CONTROL) |
 | qr_make_task | 🌐 | QR code generator and simple Q&A site | 2026-06-29 | [link](https://github.com/SOOJUNBARNG/qr_make_task) |
 
-### 🏬 その他法人・外部案件
+### 🏥 医療・病院系
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
-| YRC-shukatsu-lab | 🔒 | — | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/YRC-shukatsu-lab) |
-| MA_Techno | 🔒 | 企業リストのスクレイピングを支援するスクリプト集 | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/MA_Techno) |
-| Job_quit | 🔒 | 給与・勤務状況・生年月日・住所などの人事データから従業員の退職リスクをRandomForest+SHAPで予測し、 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Job_quit) |
-| negishi_survey | 🔒 | Firebase Hosting上で公開する、利用者・ご家族向けの満足度調査フォーム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/negishi_survey) |
-| azuma-jotform | 🔒 | Firebase Hosting上で公開している、患者向けの満足度調査フォーム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/azuma-jotform) |
-| Ser_inc_HP | 🔒 | Corporate website for SER Inc. — a Tokyo-based bridge between Korean tech/culture and the Japanese market. | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Ser_inc_HP) |
-| Sake_selling_ecshop | 🔒 | 韓国語話者向けの日本酒販売ECサイト（React + Vite + Firebase）。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Sake_selling_ecshop) |
-| Tokiwa_health_care_service_HP | 🔒 | — | 2025-12-13 | [link](https://github.com/SOOJUNBARNG/Tokiwa_health_care_service_HP) |
+| Jpix_ocr_task | 🔒 | 財務諸表PDFを表抽出/OCRでExcel・Wordに変換するツール(Tkinter GUI + CLIスクリプト) | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/Jpix_ocr_task) |
+| THS_dentist_shift_automake_data | 🔒 | 以上が要件の整理内容です。必要に応じて修正や補足を行います！ | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/THS_dentist_shift_automake_data) |
+| Medical_frontier_code | 🔒 | これは房の個人レポジトリーではあるが、すべて会社の資産であり個人での利用を厳禁する。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Medical_frontier_code) |
+| saitama-hospital-info-collector | 🔒 | 埼玉県の在宅療養支援診療所・病院データをJMAPから収集し、Gemini APIで要約・特徴タグ付けするパイプライン。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/saitama-hospital-info-collector) |
+| Scrap_medical_job_detail_task | 🔒 | 医療系求人サイトjob-medley.comから求人データをスクレイピングし、Excelに整形するパイプライン。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Scrap_medical_job_detail_task) |
+| Hospital_display_video | 🔒 | 診察の呼出し状況をリアルタイム表示する、病院向け受付・サイネージシステム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hospital_display_video) |
+| Hatogaya_shift_automation_app | 🔒 | シフト自動作成システムへの情報入力・管理Webアプリ。希望休・制約をGoogle Sheetsに登録し、OR-Toolsでシフト自動生成。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hatogaya_shift_automation_app) |
+| Hatogaya-medical-chat-bot | 🌐 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Hatogaya-medical-chat-bot) |
 
 ### 🔧 ツール・管理系
 
@@ -74,14 +107,6 @@
 | Data_for_receipt | 🔒 | レセプト（診療報酬明細書）データを処理するパイプラインと、閲覧用Streamlitダッシュボード（旧receipt_data_hatogayaを統合） | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/Data_for_receipt) |
 | Barng_financial_projects | 🌐 | This is a proof of concept for an AI-powered hedge fund (educational purposes only). | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Barng_financial_projects) |
 | StockSharp_barng | 🌐 | Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options). | 2025-03-13 | [link](https://github.com/SOOJUNBARNG/StockSharp_barng) |
-
-### 🏢 クリニック・法人HP系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| Negishi_homecare_HP | 🔒 | 空室状況（getVacancy） | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/Negishi_homecare_HP) |
-| azuma-visit-clinic-hp | 🔒 | microCMS Templates | 2026-07-17 | [link](https://github.com/SOOJUNBARNG/azuma-visit-clinic-hp) |
-| Tokiwa-healthcare-service | 🔒 | microCMS Templates | 2026-01-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-healthcare-service) |
 
 ### 👔 鳩ヶ谷系
 
@@ -105,25 +130,11 @@
 | LINE_SUMMARY_jwt | 🔒 | — | 2026-06-27 | [link](https://github.com/SOOJUNBARNG/LINE_SUMMARY_jwt) |
 | LINE_Setting_for_yrc | 🔒 | — | 2025-10-16 | [link](https://github.com/SOOJUNBARNG/LINE_Setting_for_yrc) |
 
-### 🏥 医療・病院系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| THS_dentist_shift_automake_data | 🔒 | 以上が要件の整理内容です。必要に応じて修正や補足を行います！ | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/THS_dentist_shift_automake_data) |
-| Jpix_ocr_task | 🔒 | 財務諸表PDFを表抽出/OCRでExcel・Wordに変換するツール(Kivy GUI + CLIスクリプト) | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/Jpix_ocr_task) |
-| Medical_frontier_code | 🔒 | これは房の個人レポジトリーではあるが、すべて会社の資産であり個人での利用を厳禁する。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Medical_frontier_code) |
-| saitama-hospital-info-collector | 🔒 | 埼玉県の在宅療養支援診療所・病院データをJMAPから収集し、Gemini APIで要約・特徴タグ付けするパイプライン。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/saitama-hospital-info-collector) |
-| Scrap_medical_job_detail_task | 🔒 | 医療系求人サイトjob-medley.comから求人データをスクレイピングし、Excelに整形するパイプライン。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Scrap_medical_job_detail_task) |
-| Hospital_display_video | 🔒 | 診察の呼出し状況をリアルタイム表示する、病院向け受付・サイネージシステム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hospital_display_video) |
-| Hatogaya_shift_automation_app | 🔒 | シフト自動作成システムへの情報入力・管理Webアプリ。希望休・制約をGoogle Sheetsに登録し、OR-Toolsでシフト自動生成。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hatogaya_shift_automation_app) |
-| Hatogaya-medical-chat-bot | 🌐 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Hatogaya-medical-chat-bot) |
-
 ### 👤 個人・キャリア系
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
 | Barng_resume | 🔒 | — | 2026-07-13 | [link](https://github.com/SOOJUNBARNG/Barng_resume) |
-| Career_help | 🌐 | — | 2025-03-12 | [link](https://github.com/SOOJUNBARNG/Career_help) |
 | Typescript_template_barng_game | 🔒 | — | 2024-10-15 | [link](https://github.com/SOOJUNBARNG/Typescript_template_barng_game) |
 | Barng_hackerton | 🔒 | — | 2024-09-05 | [link](https://github.com/SOOJUNBARNG/Barng_hackerton) |
 
@@ -132,32 +143,12 @@
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
 | ai_diary_app | 🔒 | samples, guidance on mobile development, and a full API reference. | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/ai_diary_app) |
-| Kenseikai_financial_data_rpa | 🔒 | — | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/Kenseikai_financial_data_rpa) |
 | Route_ai_develop | 🔒 | — | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/Route_ai_develop) |
 | AI_Voice_bot_netlify | 🔒 | User -> Node.js (このコード) -> Dialogflow CX (Intent) -> 固定の回答 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/AI_Voice_bot_netlify) |
 | Auto-translation-task | 🔒 | 日本語ファイル（PowerPoint / Word / Excel）を Gemini API で自動翻訳するツール。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Auto-translation-task) |
 | PPTAgent_barng | 🌐 | PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides | 2025-03-20 | [link](https://github.com/SOOJUNBARNG/PPTAgent_barng) |
 | nanobrowser | 🌐 | Open-source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator. | 2025-03-12 | [link](https://github.com/SOOJUNBARNG/nanobrowser) |
 | novel-writer-korean | 🌐 | Automated LLM novelist | 2025-03-10 | [link](https://github.com/SOOJUNBARNG/novel-writer-korean) |
-
-### 📊 データ・スクレイピング系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| Scrap_for_park_sub | 🔒 | — | 2026-05-13 | [link](https://github.com/SOOJUNBARNG/Scrap_for_park_sub) |
-| Scrap_for_park | 🔒 | — | 2026-05-03 | [link](https://github.com/SOOJUNBARNG/Scrap_for_park) |
-| Asset_scrapping | 🔒 | — | 2026-03-01 | [link](https://github.com/SOOJUNBARNG/Asset_scrapping) |
-| Area_map_result | 🔒 | — | 2026-02-24 | [link](https://github.com/SOOJUNBARNG/Area_map_result) |
-| Geocoding_visualization | 🔒 | — | 2026-01-08 | [link](https://github.com/SOOJUNBARNG/Geocoding_visualization) |
-| TCB_visualization | 🔒 | — | 2025-06-27 | [link](https://github.com/SOOJUNBARNG/TCB_visualization) |
-| Japan_jordan_scrap | 🌐 | — | 2025-06-17 | [link](https://github.com/SOOJUNBARNG/Japan_jordan_scrap) |
-| Text_analysis_mf | 🔒 | — | 2025-04-08 | [link](https://github.com/SOOJUNBARNG/Text_analysis_mf) |
-
-### 🌐 Web・フロントエンド系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| Clear-background | 🌐 | — | 2026-01-22 | [link](https://github.com/SOOJUNBARNG/Clear-background) |
 
 ---
 
