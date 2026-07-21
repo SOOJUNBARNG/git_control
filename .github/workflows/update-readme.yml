@@ -30,27 +30,55 @@ jobs:
               capture_output=True, text=True
           )
           if list_result.returncode != 0:
-              print("DEBUG stderr:", list_result.stderr)
               raise SystemExit(1)
           repos = json.loads(list_result.stdout)
 
           missing = [r["name"] for r in repos if not r.get("description")]
           print(f"About未設定: {len(missing)}件")
 
-          # 説明文として使わない(コード/URL/ボイラープレート/シークレットらしき行)を弾くルール
+          # 説明文として使わない(コード/URL/コマンド/ボイラープレート/セレクタ/シークレットらしき行)を弾くルール
           secret_pattern = re.compile(
               r"AIza[0-9A-Za-z_\-]{20,}|sk-[A-Za-z0-9]{20,}|gh[pousr]_[A-Za-z0-9]{30,}"
               r"|AKIA[0-9A-Z]{12,}|eyJ[A-Za-z0-9_\-]{10,}\.[A-Za-z0-9_\-]{10,}"
           )
+          md_emphasis = re.compile(r"[*_`]")
+          leading_markup = re.compile(r"^[\d]+[.)]\s*|^[-*]\s*")
+          list_item_pattern = re.compile(r"^([-*+]\s|\d+[.)]\s)")
+          selector_pattern = re.compile(r"\[@|//\[|xpath", re.IGNORECASE)
           code_pattern = re.compile(
-              r"^(//|#!|const |import |function |class |def |gcloud |pip install|npm |pyinstaller|\$)"
+              r"^(//|#!|const |let |var |import |function |class |def |gcloud |pip install"
+              r"|pip3 install|pyinstaller|python |python3 |npm |npx |yarn |\$|First,? run"
+              r"|Then,? open|Run the following|Open \[?http|playwright |docker |curl |git clone"
+              r"|git |node )",
+              re.IGNORECASE,
           )
           boilerplate_snippets = [
-              "a new flutter project",
+              "flutter project",
+              "flutter application",
+              "starting point for a",
               "bootstrapped with",
               "getting started",
               "this is a next.js project",
+              "this project uses",
+              "learn more about next.js",
+              "development server",
+              "open http://localhost",
+              "you can start editing the page",
+              "auto-updates as you edit",
+              "next/font",
           ]
+
+          def looks_like_description(clean):
+              if len(clean) < 15:
+                  return False
+              if " " not in clean and not re.search(r"[ぁ-んァ-ヶ一-龠]", clean):
+                  return False
+              if "http://" in clean or "https://" in clean:
+                  # URLを除いた残りが短すぎるなら実質URLのみとみなす
+                  remainder = re.sub(r"https?://\S+", "", clean).strip()
+                  if len(remainder) < 15:
+                      return False
+              return True
 
           def extract_description(owner, repo):
               result = subprocess.run(
@@ -58,13 +86,17 @@ jobs:
                   capture_output=True, text=True
               )
               if result.returncode != 0 or not result.stdout.strip():
-                  if result.returncode != 0:
-                      print(f"DEBUG readme-fetch-failed {repo}: {result.stderr.strip()[:200]}")
                   return None, None
               try:
                   text = base64.b64decode(result.stdout.strip()).decode("utf-8", "ignore")
               except Exception:
                   return None, None
+
+              # ファイル全体を先にスキャンし、どこかにシークレットらしき文字列があれば
+              # このリポジトリの説明設定自体を丸ごとスキップする
+              for raw_line in text.split("\n"):
+                  if secret_pattern.search(raw_line):
+                      return None, "secret-like-string-detected"
 
               in_code_block = False
               for raw_line in text.split("\n"):
@@ -74,16 +106,17 @@ jobs:
                       continue
                   if in_code_block or not line:
                       continue
-                  if line.startswith(("#", "![", "[", "<", "---", "===")):
+                  if line.startswith(("#", "![", "[", "<", "---", "===", "|")):
                       continue
-                  if secret_pattern.search(line):
-                      return None, "secret-like-string-detected"
-                  if code_pattern.match(line):
+                  if list_item_pattern.match(line):
                       continue
-                  if line.lower().startswith("http"):
+                  if selector_pattern.search(line):
                       continue
-                  clean = re.sub(r"[*_`]", "", line).strip()
-                  if len(clean) < 8:
+                  clean = md_emphasis.sub("", line).strip()
+                  stripped_markup = leading_markup.sub("", clean).strip()
+                  if code_pattern.match(stripped_markup) or code_pattern.match(clean):
+                      continue
+                  if not looks_like_description(clean):
                       continue
                   if any(b in clean.lower() for b in boilerplate_snippets):
                       continue
