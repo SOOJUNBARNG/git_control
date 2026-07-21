@@ -1,6 +1,6 @@
 # 🗂️ git_control — SOOJUNBARNG リポジトリ管理
 
-> 最終更新: 2026-07-21 12:40 UTC | 合計: 63件
+> 最終更新: 2026-07-21 13:19 UTC | 合計: 58件
 
 全リポジトリの一覧・管理スクリプトをまとめたハブリポジトリ。**このREADMEは毎日自動更新されます。**
 
@@ -30,19 +30,46 @@
 
 ---
 
-## リポジトリ一覧 (63件)
+## リポジトリ一覧 (58件)
+
+### 🤖 AI・自動化系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| google-maps-route-optimizer | 🔒 | Google Maps Routes APIを使った複数経由地ルート最適化ツール（CSV/Googleスプレッドシート対応、Leaflet地図出力） | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/google-maps-route-optimizer) |
+| ai_diary_app | 🔒 | samples, guidance on mobile development, and a full API reference. | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/ai_diary_app) |
+| AI_Voice_bot_netlify | 🔒 | User -> Node.js (このコード) -> Dialogflow CX (Intent) -> 固定の回答 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/AI_Voice_bot_netlify) |
+| Auto-translation-task | 🔒 | 日本語ファイル（PowerPoint / Word / Excel）を Gemini API で自動翻訳するツール。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Auto-translation-task) |
+| PPTAgent_barng | 🌐 | PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides | 2025-03-20 | [link](https://github.com/SOOJUNBARNG/PPTAgent_barng) |
+| nanobrowser | 🌐 | Open-source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator. | 2025-03-12 | [link](https://github.com/SOOJUNBARNG/nanobrowser) |
+| novel-writer-korean | 🌐 | Automated LLM novelist | 2025-03-10 | [link](https://github.com/SOOJUNBARNG/novel-writer-korean) |
+
+### 👤 個人・キャリア系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| barng-career-site | 🔒 | Soojun Barng's multilingual career/resume site with a Tokiwa Health OKR reporting integration | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/barng-career-site) |
 
 ### 📊 データ・スクレイピング系
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
+| data_visualization_task | 🔒 | アソシエーション分析、決定木、地理データマッピング、ネットワークグラフ、サンキーダイアグラム、ウォーターフォールチャートなど、データ可視化・分析手法を試すPythonスクリプト集 | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/data_visualization_task) |
 | customer_area_visualization_task | 🔒 | 顧客住所を緯度経度に変換し、埼玉県・東京都エリアでの分布をインタラクティブ地図で可視化するツール | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/customer_area_visualization_task) |
-| data_visualization_task | 🔒 | A collection of Python scripts exploring data visualization and analysis techniques: association rules, decision trees, geographic mapping, network graphs, Sankey diagrams, and waterfall charts. | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/data_visualization_task) |
 | suumo_rental_scraper_task | 🔒 | — | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/suumo_rental_scraper_task) |
 | Scrap_for_park_sub | 🔒 | — | 2026-05-13 | [link](https://github.com/SOOJUNBARNG/Scrap_for_park_sub) |
 | Scrap_for_park | 🔒 | — | 2026-05-03 | [link](https://github.com/SOOJUNBARNG/Scrap_for_park) |
 | Geocoding_visualization | 🔒 | — | 2026-01-08 | [link](https://github.com/SOOJUNBARNG/Geocoding_visualization) |
 | Text_analysis_mf | 🔒 | — | 2025-04-08 | [link](https://github.com/SOOJUNBARNG/Text_analysis_mf) |
+
+### 🔧 ツール・管理系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| git_control | 🌐 | SOOJUNBARNG 全リポジトリの一覧・管理ハブ。READMEは毎日自動更新。 | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/git_control) |
+| All_general_data_for_barng | 🔒 | 個人資料を整理する個人用アーカイブリポジトリ | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/All_general_data_for_barng) |
+| Data_upload_and_download | 🔒 | AWSクラウド移行前にデータをTableauで週次・月次で観測するための臨時ツール。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Data_upload_and_download) |
+| chromium | 🌐 | Chromium (x86-64) for Serverless Platforms | 2025-03-09 | [link](https://github.com/SOOJUNBARNG/chromium) |
 
 ### 🏢 クリニック・法人HP系
 
@@ -90,15 +117,6 @@
 | Hatogaya_shift_automation_app | 🔒 | シフト自動作成システムへの情報入力・管理Webアプリ。希望休・制約をGoogle Sheetsに登録し、OR-Toolsでシフト自動生成。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hatogaya_shift_automation_app) |
 | Hatogaya-medical-chat-bot | 🌐 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Hatogaya-medical-chat-bot) |
 
-### 🔧 ツール・管理系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| git_control | 🌐 | SOOJUNBARNG 全リポジトリの一覧・管理ハブ。READMEは毎日自動更新。 | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/git_control) |
-| All_general_data_for_barng | 🔒 | 個人資料を整理する個人用アーカイブリポジトリ | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/All_general_data_for_barng) |
-| Data_upload_and_download | 🔒 | AWSクラウド移行前にデータをTableauで週次・月次で観測するための臨時ツール。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Data_upload_and_download) |
-| chromium | 🌐 | Chromium (x86-64) for Serverless Platforms | 2025-03-09 | [link](https://github.com/SOOJUNBARNG/chromium) |
-
 ### 💰 財務・経理系
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
@@ -118,7 +136,6 @@
 | Firebase_Hatogaya_voice | 🔒 | — | 2026-07-16 | [link](https://github.com/SOOJUNBARNG/Firebase_Hatogaya_voice) |
 | Tokiwa-hatogaya-study-app | 🔒 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-hatogaya-study-app) |
 | hatogaya_jotform | 🔒 | — | 2026-02-19 | [link](https://github.com/SOOJUNBARNG/hatogaya_jotform) |
-| receipt_data_hatogaya | 🔒 | — | 2026-02-18 | [link](https://github.com/SOOJUNBARNG/receipt_data_hatogaya) |
 
 ### 💬 LINE・通知系
 
@@ -127,28 +144,6 @@
 | LINE_WORKS_SUMMARY | 🔒 | LINE WORKSのトーク履歴をGemini APIで要約し、指定チャンネルに投稿するツール。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/LINE_WORKS_SUMMARY) |
 | LINE_TASK_CONTROL | 🔒 | LINE WORKS APIでユーザー一覧取得・タスク作成・一括登録を行うスクリプト集。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/LINE_TASK_CONTROL) |
 | LINE_LINEWORKS_GAS_SERVER_AI_CHATSERVICE | 🔒 | LINEとLINE WORKSの両方に対応したAIチャットサービス。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/LINE_LINEWORKS_GAS_SERVER_AI_CHATSERVICE) |
-| LINE_SUMMARY_jwt | 🔒 | — | 2026-06-27 | [link](https://github.com/SOOJUNBARNG/LINE_SUMMARY_jwt) |
-| LINE_Setting_for_yrc | 🔒 | — | 2025-10-16 | [link](https://github.com/SOOJUNBARNG/LINE_Setting_for_yrc) |
-
-### 👤 個人・キャリア系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| Barng_resume | 🔒 | — | 2026-07-13 | [link](https://github.com/SOOJUNBARNG/Barng_resume) |
-| Typescript_template_barng_game | 🔒 | — | 2024-10-15 | [link](https://github.com/SOOJUNBARNG/Typescript_template_barng_game) |
-| Barng_hackerton | 🔒 | — | 2024-09-05 | [link](https://github.com/SOOJUNBARNG/Barng_hackerton) |
-
-### 🤖 AI・自動化系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| ai_diary_app | 🔒 | samples, guidance on mobile development, and a full API reference. | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/ai_diary_app) |
-| Route_ai_develop | 🔒 | — | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/Route_ai_develop) |
-| AI_Voice_bot_netlify | 🔒 | User -> Node.js (このコード) -> Dialogflow CX (Intent) -> 固定の回答 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/AI_Voice_bot_netlify) |
-| Auto-translation-task | 🔒 | 日本語ファイル（PowerPoint / Word / Excel）を Gemini API で自動翻訳するツール。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Auto-translation-task) |
-| PPTAgent_barng | 🌐 | PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides | 2025-03-20 | [link](https://github.com/SOOJUNBARNG/PPTAgent_barng) |
-| nanobrowser | 🌐 | Open-source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator. | 2025-03-12 | [link](https://github.com/SOOJUNBARNG/nanobrowser) |
-| novel-writer-korean | 🌐 | Automated LLM novelist | 2025-03-10 | [link](https://github.com/SOOJUNBARNG/novel-writer-korean) |
 
 ---
 
