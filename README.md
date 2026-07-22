@@ -1,6 +1,6 @@
 # 🗂️ git_control — SOOJUNBARNG リポジトリ管理
 
-> 最終更新: 2026-07-22 08:54 UTC | 合計: 57件
+> 最終更新: 2026-07-22 09:19 UTC | 合計: 55件
 
 全リポジトリの一覧・管理スクリプトをまとめたハブリポジトリ。**このREADMEは毎日自動更新されます。**
 
@@ -30,7 +30,36 @@
 
 ---
 
-## リポジトリ一覧 (57件)
+## リポジトリ一覧 (55件)
+
+### 📊 データ・スクレイピング系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| suumo_rental_scraper_task | 🔒 | This project scrapes rental property listings from [SUUMO](https://suumo.jp/), a major Japanese real estate listing site. It collects bui... | 2026-07-22 | [link](https://github.com/SOOJUNBARNG/suumo_rental_scraper_task) |
+| address_geo_visualization_task | 🔒 | 住所をジオコーディングし、周辺の行政区域境界と指定半径を地図上に可視化するツール（folium / kepler.gl） | 2026-07-22 | [link](https://github.com/SOOJUNBARNG/address_geo_visualization_task) |
+| speech_to_text_analysis_task | 🔒 | 音声データの文字起こし（Whisper + pyannote話者分離）とテキスト分析（キーワード頻度・ワードクラウド・spaCy/GiNZAによる形態素解析）を行うプロジェクト | 2026-07-22 | [link](https://github.com/SOOJUNBARNG/speech_to_text_analysis_task) |
+| data_visualization_task | 🔒 | アソシエーション分析、決定木、地理データマッピング、ネットワークグラフ、サンキーダイアグラム、ウォーターフォールチャートなど、データ可視化・分析手法を試すPythonスクリプト集 | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/data_visualization_task) |
+| customer_area_visualization_task | 🔒 | 顧客住所を緯度経度に変換し、埼玉県・東京都エリアでの分布をインタラクティブ地図で可視化するツール | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/customer_area_visualization_task) |
+
+### 👔 鳩ヶ谷系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| Firebase_Hatogaya_voice_product | 🔒 | 音声を録音・アップロードするだけで、AI（Vertex AI Gemini）が文字起こしと要約まで自動で行う医療現場向け音声記録アプリ。 | 2026-07-22 | [link](https://github.com/SOOJUNBARNG/Firebase_Hatogaya_voice_product) |
+| hatogaya_jobhunting | 🔒 | You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome! | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/hatogaya_jobhunting) |
+| Hatogaya_knowledge_share_web_system | 🔒 | — | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hatogaya_knowledge_share_web_system) |
+| Hatogaya_talent_management | 🔒 | jinjer × Claude APIで構築した人材管理システム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hatogaya_talent_management) |
+| Tokiwa-hatogaya-study-app | 🔒 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-hatogaya-study-app) |
+| hatogaya_jotform | 🔒 | — | 2026-02-19 | [link](https://github.com/SOOJUNBARNG/hatogaya_jotform) |
+
+### 🔧 ツール・管理系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| git_control | 🌐 | SOOJUNBARNG 全リポジトリの一覧・管理ハブ。READMEは毎日自動更新。 | 2026-07-22 | [link](https://github.com/SOOJUNBARNG/git_control) |
+| All_general_data_for_barng | 🔒 | 個人資料を整理する個人用アーカイブリポジトリ | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/All_general_data_for_barng) |
+| Data_upload_and_download | 🔒 | AWSクラウド移行前にデータをTableauで週次・月次で観測するための臨時ツール。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Data_upload_and_download) |
 
 ### 📦 その他
 
@@ -57,26 +86,6 @@
 | Scrap_medical_job_detail_task | 🔒 | 医療系求人サイトjob-medley.comから求人データをスクレイピングし、Excelに整形するパイプライン。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Scrap_medical_job_detail_task) |
 | Hospital_display_video | 🔒 | 診察の呼出し状況をリアルタイム表示する、病院向け受付・サイネージシステム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hospital_display_video) |
 | Hatogaya-medical-chat-bot | 🌐 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Hatogaya-medical-chat-bot) |
-
-### 📊 データ・スクレイピング系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| address_geo_visualization_task | 🔒 | 住所をジオコーディングし、周辺の行政区域境界と指定半径を地図上に可視化するツール（folium / kepler.gl） | 2026-07-22 | [link](https://github.com/SOOJUNBARNG/address_geo_visualization_task) |
-| speech_to_text_analysis_task | 🔒 | 音声データの文字起こし（Whisper + pyannote話者分離）とテキスト分析（キーワード頻度・ワードクラウド・spaCy/GiNZAによる形態素解析）を行うプロジェクト | 2026-07-22 | [link](https://github.com/SOOJUNBARNG/speech_to_text_analysis_task) |
-| data_visualization_task | 🔒 | アソシエーション分析、決定木、地理データマッピング、ネットワークグラフ、サンキーダイアグラム、ウォーターフォールチャートなど、データ可視化・分析手法を試すPythonスクリプト集 | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/data_visualization_task) |
-| customer_area_visualization_task | 🔒 | 顧客住所を緯度経度に変換し、埼玉県・東京都エリアでの分布をインタラクティブ地図で可視化するツール | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/customer_area_visualization_task) |
-| suumo_rental_scraper_task | 🔒 | — | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/suumo_rental_scraper_task) |
-| Scrap_for_park_sub | 🔒 | — | 2026-05-13 | [link](https://github.com/SOOJUNBARNG/Scrap_for_park_sub) |
-| Scrap_for_park | 🔒 | — | 2026-05-03 | [link](https://github.com/SOOJUNBARNG/Scrap_for_park) |
-
-### 🔧 ツール・管理系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| All_general_data_for_barng | 🔒 | 個人資料を整理する個人用アーカイブリポジトリ | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/All_general_data_for_barng) |
-| git_control | 🌐 | SOOJUNBARNG 全リポジトリの一覧・管理ハブ。READMEは毎日自動更新。 | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/git_control) |
-| Data_upload_and_download | 🔒 | AWSクラウド移行前にデータをTableauで週次・月次で観測するための臨時ツール。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Data_upload_and_download) |
 
 ### 🏬 その他法人・外部案件
 
@@ -124,17 +133,6 @@
 | Data_for_receipt | 🔒 | レセプト（診療報酬明細書）データを処理するパイプラインと、閲覧用Streamlitダッシュボード（旧receipt_data_hatogayaを統合） | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/Data_for_receipt) |
 | Barng_financial_projects | 🌐 | This is a proof of concept for an AI-powered hedge fund (educational purposes only). | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Barng_financial_projects) |
 | StockSharp_barng | 🌐 | Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options). | 2025-03-13 | [link](https://github.com/SOOJUNBARNG/StockSharp_barng) |
-
-### 👔 鳩ヶ谷系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| hatogaya_jobhunting | 🔒 | You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome! | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/hatogaya_jobhunting) |
-| Hatogaya_knowledge_share_web_system | 🔒 | — | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hatogaya_knowledge_share_web_system) |
-| Hatogaya_talent_management | 🔒 | jinjer × Claude APIで構築した人材管理システム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hatogaya_talent_management) |
-| Firebase_Hatogaya_voice | 🔒 | — | 2026-07-16 | [link](https://github.com/SOOJUNBARNG/Firebase_Hatogaya_voice) |
-| Tokiwa-hatogaya-study-app | 🔒 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-hatogaya-study-app) |
-| hatogaya_jotform | 🔒 | — | 2026-02-19 | [link](https://github.com/SOOJUNBARNG/hatogaya_jotform) |
 
 ### 💬 LINE・通知系
 
