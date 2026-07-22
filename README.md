@@ -1,6 +1,6 @@
 # 🗂️ git_control — SOOJUNBARNG リポジトリ管理
 
-> 最終更新: 2026-07-22 09:19 UTC | 合計: 55件
+> 最終更新: 2026-07-22 09:57 UTC | 合計: 55件
 
 全リポジトリの一覧・管理スクリプトをまとめたハブリポジトリ。**このREADMEは毎日自動更新されます。**
 
@@ -32,6 +32,37 @@
 
 ## リポジトリ一覧 (55件)
 
+### 👔 鳩ヶ谷系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| hatogaya_jotform_product | 🔒 | はとがや病院 患者満足度調査フォーム | 2026-07-22 | [link](https://github.com/SOOJUNBARNG/hatogaya_jotform_product) |
+| Firebase_Hatogaya_voice_product | 🔒 | 音声を録音・アップロードするだけで、AI（Vertex AI Gemini）が文字起こしと要約まで自動で行う医療現場向け音声記録アプリ。 | 2026-07-22 | [link](https://github.com/SOOJUNBARNG/Firebase_Hatogaya_voice_product) |
+| hatogaya_jobhunting | 🔒 | You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome! | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/hatogaya_jobhunting) |
+| Hatogaya_knowledge_share_web_system | 🔒 | — | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hatogaya_knowledge_share_web_system) |
+| Hatogaya_talent_management | 🔒 | jinjer × Claude APIで構築した人材管理システム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hatogaya_talent_management) |
+| Tokiwa-hatogaya-study-app | 🔒 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-hatogaya-study-app) |
+
+### 🏬 その他法人・外部案件
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| job_quit_task | 🔒 | 給与・勤務状況・生年月日・住所などの人事データから従業員の退職リスクをRandomForest+SHAPで予測し、 | 2026-07-22 | [link](https://github.com/SOOJUNBARNG/job_quit_task) |
+| YRC-shukatsu-lab | 🔒 | 外資・日系就活支援Webアプリ｜記事・企業検索・AIエントリシート添削・選考管理 | Firebase + Gemini 2.5 Flash | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/YRC-shukatsu-lab) |
+| MA_Techno | 🔒 | 企業リストのスクレイピングを支援するスクリプト集 | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/MA_Techno) |
+| negishi_survey | 🔒 | Firebase Hosting上で公開する、利用者・ご家族向けの満足度調査フォーム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/negishi_survey) |
+| azuma-jotform | 🔒 | Firebase Hosting上で公開している、患者向けの満足度調査フォーム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/azuma-jotform) |
+| Ser_inc_HP | 🔒 | Corporate website for SER Inc. — a Tokyo-based bridge between Korean tech/culture and the Japanese market. | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Ser_inc_HP) |
+| Sake_selling_ecshop | 🔒 | 韓国語話者向けの日本酒販売ECサイト（React + Vite + Firebase）。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Sake_selling_ecshop) |
+
+### 🔧 ツール・管理系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| git_control | 🌐 | SOOJUNBARNG 全リポジトリの一覧・管理ハブ。READMEは毎日自動更新。 | 2026-07-22 | [link](https://github.com/SOOJUNBARNG/git_control) |
+| All_general_data_for_barng | 🔒 | 個人資料を整理する個人用アーカイブリポジトリ | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/All_general_data_for_barng) |
+| Data_upload_and_download | 🔒 | AWSクラウド移行前にデータをTableauで週次・月次で観測するための臨時ツール。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Data_upload_and_download) |
+
 ### 📊 データ・スクレイピング系
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
@@ -41,25 +72,6 @@
 | speech_to_text_analysis_task | 🔒 | 音声データの文字起こし（Whisper + pyannote話者分離）とテキスト分析（キーワード頻度・ワードクラウド・spaCy/GiNZAによる形態素解析）を行うプロジェクト | 2026-07-22 | [link](https://github.com/SOOJUNBARNG/speech_to_text_analysis_task) |
 | data_visualization_task | 🔒 | アソシエーション分析、決定木、地理データマッピング、ネットワークグラフ、サンキーダイアグラム、ウォーターフォールチャートなど、データ可視化・分析手法を試すPythonスクリプト集 | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/data_visualization_task) |
 | customer_area_visualization_task | 🔒 | 顧客住所を緯度経度に変換し、埼玉県・東京都エリアでの分布をインタラクティブ地図で可視化するツール | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/customer_area_visualization_task) |
-
-### 👔 鳩ヶ谷系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| Firebase_Hatogaya_voice_product | 🔒 | 音声を録音・アップロードするだけで、AI（Vertex AI Gemini）が文字起こしと要約まで自動で行う医療現場向け音声記録アプリ。 | 2026-07-22 | [link](https://github.com/SOOJUNBARNG/Firebase_Hatogaya_voice_product) |
-| hatogaya_jobhunting | 🔒 | You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome! | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/hatogaya_jobhunting) |
-| Hatogaya_knowledge_share_web_system | 🔒 | — | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hatogaya_knowledge_share_web_system) |
-| Hatogaya_talent_management | 🔒 | jinjer × Claude APIで構築した人材管理システム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hatogaya_talent_management) |
-| Tokiwa-hatogaya-study-app | 🔒 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-hatogaya-study-app) |
-| hatogaya_jotform | 🔒 | — | 2026-02-19 | [link](https://github.com/SOOJUNBARNG/hatogaya_jotform) |
-
-### 🔧 ツール・管理系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| git_control | 🌐 | SOOJUNBARNG 全リポジトリの一覧・管理ハブ。READMEは毎日自動更新。 | 2026-07-22 | [link](https://github.com/SOOJUNBARNG/git_control) |
-| All_general_data_for_barng | 🔒 | 個人資料を整理する個人用アーカイブリポジトリ | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/All_general_data_for_barng) |
-| Data_upload_and_download | 🔒 | AWSクラウド移行前にデータをTableauで週次・月次で観測するための臨時ツール。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Data_upload_and_download) |
 
 ### 📦 その他
 
@@ -86,18 +98,6 @@
 | Scrap_medical_job_detail_task | 🔒 | 医療系求人サイトjob-medley.comから求人データをスクレイピングし、Excelに整形するパイプライン。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Scrap_medical_job_detail_task) |
 | Hospital_display_video | 🔒 | 診察の呼出し状況をリアルタイム表示する、病院向け受付・サイネージシステム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Hospital_display_video) |
 | Hatogaya-medical-chat-bot | 🌐 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Hatogaya-medical-chat-bot) |
-
-### 🏬 その他法人・外部案件
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| YRC-shukatsu-lab | 🔒 | 外資・日系就活支援Webアプリ｜記事・企業検索・AIエントリシート添削・選考管理 | Firebase + Gemini 2.5 Flash | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/YRC-shukatsu-lab) |
-| MA_Techno | 🔒 | 企業リストのスクレイピングを支援するスクリプト集 | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/MA_Techno) |
-| Job_quit | 🔒 | 給与・勤務状況・生年月日・住所などの人事データから従業員の退職リスクをRandomForest+SHAPで予測し、 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Job_quit) |
-| negishi_survey | 🔒 | Firebase Hosting上で公開する、利用者・ご家族向けの満足度調査フォーム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/negishi_survey) |
-| azuma-jotform | 🔒 | Firebase Hosting上で公開している、患者向けの満足度調査フォーム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/azuma-jotform) |
-| Ser_inc_HP | 🔒 | Corporate website for SER Inc. — a Tokyo-based bridge between Korean tech/culture and the Japanese market. | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Ser_inc_HP) |
-| Sake_selling_ecshop | 🔒 | 韓国語話者向けの日本酒販売ECサイト（React + Vite + Firebase）。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Sake_selling_ecshop) |
 
 ### 🤖 AI・自動化系
 
