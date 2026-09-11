@@ -1,6 +1,6 @@
 # 🗂️ git_control — SOOJUNBARNG リポジトリ管理
 
-> 最終更新: 2026-09-07 01:51 UTC | 合計: 74件
+> 最終更新: 2026-09-11 13:41 UTC | 合計: 77件
 
 全リポジトリの一覧・管理スクリプトをまとめたハブリポジトリ。**このREADMEは毎日自動更新されます。**
 
@@ -30,16 +30,19 @@
 
 ---
 
-## リポジトリ一覧 (74件)
+## リポジトリ一覧 (77件)
 
 ### 📦 その他
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
-| Safe_lending_money_product | 🔒 | samples, guidance on mobile development, and a full API reference. | 2026-09-07 | [link](https://github.com/SOOJUNBARNG/Safe_lending_money_product) |
+| KJM_GAS_electricity_water_result_task | 🔒 | GAS: 電気・水道使用量の集計結果をフロア別PDF化してメール送信。clasp + GitHub Actionsで自動デプロイ | 2026-09-11 | [link](https://github.com/SOOJUNBARNG/KJM_GAS_electricity_water_result_task) |
+| ekispert-multimodal-mcp-product | 🔒 | 🚃 電車×シェアサイクル通勤ナビ | 駅すぱあと×LUUP×ドコモ×Hello Cycling。住所入力対応。シェアサイクルが電車より速い場合はおすすめ表示。Agentic AI Hackathon Vol.5 | 2026-09-11 | [link](https://github.com/SOOJUNBARNG/ekispert-multimodal-mcp-product) |
+| Safe_lending_money_product | 🔒 | 友人に貸したお金が返ってこない → AIが少額訴訟の準備を3分で完了。2エージェント対話で不足書類を特定、Geminiが契約書を即時生成。Vertex AI × Firebase × Flutter｜Google Cloud Japan AI Hackathon Vol.5 | 2026-09-10 | [link](https://github.com/SOOJUNBARNG/Safe_lending_money_product) |
+| HIRAYAMA_TEMP_SITE | 🔒 | ROBUST TRIP 法人海外出張・業務渡航サービスサイト（仮公開用） | 2026-09-10 | [link](https://github.com/SOOJUNBARNG/HIRAYAMA_TEMP_SITE) |
+| Google_drive_file_directory_change | 🔒 | 個人のGoogle Driveのファイル・フォルダを自動整理するPythonツール（拡張子/キーワード別振り分け、重複検出、リネーム整形、ドライラン対応） | 2026-09-09 | [link](https://github.com/SOOJUNBARNG/Google_drive_file_directory_change) |
 | GCP_IAM_COST_CONTROL | 🔒 | GCP/Firebaseの支払い状況を項目別に把握し、プロジェクトをローカルGitリポジトリに紐づけて一覧できるダッシュボードツール。 | 2026-09-07 | [link](https://github.com/SOOJUNBARNG/GCP_IAM_COST_CONTROL) |
 | SMALL_GAME_product | 🔒 | — | 2026-08-31 | [link](https://github.com/SOOJUNBARNG/SMALL_GAME_product) |
-| ekispert-multimodal-mcp-product | 🔒 | 🚃 電車×シェアサイクル通勤ナビ | 駅すぱあと×LUUP×ドコモ×Hello Cycling。住所入力対応。シェアサイクルが電車より速い場合はおすすめ表示。Agentic AI Hackathon Vol.5 | 2026-08-29 | [link](https://github.com/SOOJUNBARNG/ekispert-multimodal-mcp-product) |
 | Claude_base_html_make_MCP | 🌐 | 開発アイデアを構造化してHTML形式で保存するClaude Code用MCPサーバー | 2026-08-21 | [link](https://github.com/SOOJUNBARNG/Claude_base_html_make_MCP) |
 | WEBM_to_mp3_task | 🔒 | Converts a .webm audio/video recording to .mp3 using ffmpeg. | 2026-08-10 | [link](https://github.com/SOOJUNBARNG/WEBM_to_mp3_task) |
 | unmei48-product | 🔒 | 運命48 — 四柱推命ベースの縁結びアプリ（Flutter + Firebase）。 | 2026-08-04 | [link](https://github.com/SOOJUNBARNG/unmei48-product) |
@@ -48,34 +51,14 @@
 | image_bg_task | 🌐 | ロゴ・ブランド画像の下処理用ツールキット：背景除去、自動クロップ、ICO/SVG変換 | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/image_bg_task) |
 | auto_contact_form_task | 🔒 | AIでお問い合わせフォームを自動検出・入力する営業自動化ツール（Selenium + Claude API） | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/auto_contact_form_task) |
 | Google_ads_control | 🔒 | Google Ads API を使い、月間予算目標に合わせてキャンペーン予算を自動調整するPythonスクリプト | 2026-07-20 | [link](https://github.com/SOOJUNBARNG/Google_ads_control) |
-| Google_drive_file_directory_change | 🔒 | 個人のGoogle Driveのファイル・フォルダを自動整理するPythonツール（拡張子/キーワード別振り分け、重複検出、リネーム整形、ドライラン対応） | 2026-07-20 | [link](https://github.com/SOOJUNBARNG/Google_drive_file_directory_change) |
-| KJM_GAS_electricity_water_result_task | 🔒 | GAS: 電気・水道使用量の集計結果をフロア別PDF化してメール送信。clasp + GitHub Actionsで自動デプロイ | 2026-07-20 | [link](https://github.com/SOOJUNBARNG/KJM_GAS_electricity_water_result_task) |
-
-### 💬 LINE・通知系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| Google_mail_mcp | 🔒 | Gmail受信トレイを自動整理するPythonスクリプト。ルールベースでラベル付け・アーカイブ・ゴミ箱振り分けを一括処理。 | 2026-09-06 | [link](https://github.com/SOOJUNBARNG/Google_mail_mcp) |
-| LINE_message_MCP_Product | 🔒 | — | 2026-08-24 | [link](https://github.com/SOOJUNBARNG/LINE_message_MCP_Product) |
-| LINE_WORKS_SUMMARY | 🔒 | LINE WORKSのトーク履歴をGemini APIで要約し、指定チャンネルに投稿するツール。 | 2026-08-20 | [link](https://github.com/SOOJUNBARNG/LINE_WORKS_SUMMARY) |
-| line-works-mcp-server | 🔒 | LINE WORKSをMCP経由で操作するサーバー(メッセージ送信・ユーザー一覧・タスク作成・トーク要約) / MCP server for LINE WORKS — messaging, users, tasks, and talk summaries. Mock data demo. | 2026-08-09 | [link](https://github.com/SOOJUNBARNG/line-works-mcp-server) |
-| LINE_TASK_CONTROL | 🔒 | LINE WORKS APIでユーザー一覧取得・タスク作成・一括登録を行うスクリプト集。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/LINE_TASK_CONTROL) |
-| LINE_LINEWORKS_GAS_SERVER_AI_CHATSERVICE | 🔒 | LINEとLINE WORKSの両方に対応したAIチャットサービス。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/LINE_LINEWORKS_GAS_SERVER_AI_CHATSERVICE) |
-
-### 🔧 ツール・管理系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| All_general_data_for_barng | 🔒 | 個人資料を整理する個人用アーカイブリポジトリ | 2026-09-06 | [link](https://github.com/SOOJUNBARNG/All_general_data_for_barng) |
-| git_control | 🌐 | SOOJUNBARNG 全リポジトリの一覧・管理ハブ。READMEは毎日自動更新。 | 2026-08-31 | [link](https://github.com/SOOJUNBARNG/git_control) |
-| Data_upload_and_download | 🔒 | AWSクラウド移行前にデータをTableauで週次・月次で観測するための臨時ツール。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Data_upload_and_download) |
 
 ### 👔 鳩ヶ谷系
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
-| hatogaya-it-asset-mgmt-product | 🔒 | 病院内ネットワークの全PC(OS問わず)をpingで自動検出し、WindowsPCのファイル一覧をCSV出力するツール | 2026-09-06 | [link](https://github.com/SOOJUNBARNG/hatogaya-it-asset-mgmt-product) |
-| Hatogaya_talent_management | 🔒 | jinjer × Claude APIで構築した人材管理システム。 | 2026-09-05 | [link](https://github.com/SOOJUNBARNG/Hatogaya_talent_management) |
+| Hatogaya_SLM_product | 🔒 | 完全ローカル動作・院内LANのみ・外部送信ゼロの医療特化チャットAIシステム。 | 2026-09-11 | [link](https://github.com/SOOJUNBARNG/Hatogaya_SLM_product) |
+| hatogaya-it-asset-mgmt-product | 🔒 | 病院内ネットワークの全PC(OS問わず)をpingで自動検出し、WindowsPCのファイル一覧をCSV出力するツール | 2026-09-09 | [link](https://github.com/SOOJUNBARNG/hatogaya-it-asset-mgmt-product) |
+| Hatogaya_talent_management | 🔒 | jinjer × Claude APIで構築した人材管理システム。 | 2026-09-09 | [link](https://github.com/SOOJUNBARNG/Hatogaya_talent_management) |
 | Hatogaya_knowledge_share_web_system | 🔒 | 鳩ヶ谷内で使う社内向け知識共有Webシステム(Firebase Cloud Functions + Firestore, Node.js/TypeScript) | 2026-09-05 | [link](https://github.com/SOOJUNBARNG/Hatogaya_knowledge_share_web_system) |
 | Firebase_Hatogaya_voice_product | 🔒 | 医療現場向け音声記録アプリ。録音するだけでAI（Gemini）が文字起こし・要約を自動生成。Firebase Hosting + Cloud Functions で運用。 | 2026-09-05 | [link](https://github.com/SOOJUNBARNG/Firebase_Hatogaya_voice_product) |
 | hatogaya_jobhunting | 🔒 | 医療法人あかつき会（はとがや病院）採用サイト＆人事向け応募者管理システム（Next.js + Supabase） | 2026-08-22 | [link](https://github.com/SOOJUNBARNG/hatogaya_jobhunting) |
@@ -83,22 +66,56 @@
 | hatogaya_jotform_product | 🔒 | はとがや病院 患者満足度調査フォーム | 2026-07-22 | [link](https://github.com/SOOJUNBARNG/hatogaya_jotform_product) |
 | Tokiwa-hatogaya-study-app | 🔒 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-hatogaya-study-app) |
 
+### 🔧 ツール・管理系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| All_general_data_for_barng | 🔒 | 個人資料を整理する個人用アーカイブリポジトリ | 2026-09-09 | [link](https://github.com/SOOJUNBARNG/All_general_data_for_barng) |
+| git_control | 🌐 | SOOJUNBARNG 全リポジトリの一覧・管理ハブ。READMEは毎日自動更新。 | 2026-09-07 | [link](https://github.com/SOOJUNBARNG/git_control) |
+| Data_upload_and_download | 🔒 | AWSクラウド移行前にデータをTableauで週次・月次で観測するための臨時ツール。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Data_upload_and_download) |
+
+### 🤖 AI・自動化系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| Claude_base_spread_sheet_ppt_google_doc_MCP | 🔒 | Claude との会話を Google Sheets / Docs / Slides に直接書き込む個人用 MCP サーバー。コピペ不要、新規ファイル作成不要。10ツール稼働中。 | 2026-09-09 | [link](https://github.com/SOOJUNBARNG/Claude_base_spread_sheet_ppt_google_doc_MCP) |
+| azuma_care_questionnaire_product | 🔒 | あずま在宅クリニック｜ケアマネジャー向け匿名アンケートサイト（Firebase Hosting + Google Apps Script） | 2026-09-07 | [link](https://github.com/SOOJUNBARNG/azuma_care_questionnaire_product) |
+| Yolov10_task | 🔒 | YOLOv10 + MediaPipe を使って PC カメラ映像からリアルタイムに業務状況を検出するシステムです。 | 2026-08-24 | [link](https://github.com/SOOJUNBARNG/Yolov10_task) |
+| novel-writer-korean | 🌐 | LLMを使った長編小説自動執筆ツール。Claude・GPT・Gemini・Mistral対応。アウトライン→ドラフト→仕上げの3段階で小説を生成します。 | 2026-07-28 | [link](https://github.com/SOOJUNBARNG/novel-writer-korean) |
+| Auto-translation-task | 🔒 | 日本語ファイル（PowerPoint / Word / Excel）を Gemini API で自動翻訳するツール。 | 2026-07-28 | [link](https://github.com/SOOJUNBARNG/Auto-translation-task) |
+| google-maps-route-optimizer | 🔒 | Google Maps Routes APIを使った複数経由地ルート最適化ツール（CSV/Googleスプレッドシート対応、Leaflet地図出力） | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/google-maps-route-optimizer) |
+| ai_diary_app | 🔒 | samples, guidance on mobile development, and a full API reference. | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/ai_diary_app) |
+| AI_Voice_bot_netlify | 🔒 | User -> Node.js (このコード) -> Dialogflow CX (Intent) -> 固定の回答 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/AI_Voice_bot_netlify) |
+| PPTAgent_barng | 🌐 | PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides | 2025-03-20 | [link](https://github.com/SOOJUNBARNG/PPTAgent_barng) |
+| nanobrowser | 🌐 | Open-source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator. | 2025-03-12 | [link](https://github.com/SOOJUNBARNG/nanobrowser) |
+
 ### 🏢 クリニック・法人HP系
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
+| azuma-visit-clinic-hp | 🔒 | microCMS Templates | 2026-09-09 | [link](https://github.com/SOOJUNBARNG/azuma-visit-clinic-hp) |
 | Negishi_homecare_HP | 🔒 | 介護老人保健施設「老健ねぎしケアセンター」公式サイト（Firebase Hosting + Cloud Functions） | 2026-09-05 | [link](https://github.com/SOOJUNBARNG/Negishi_homecare_HP) |
-| azuma-visit-clinic-hp | 🔒 | microCMS Templates | 2026-07-27 | [link](https://github.com/SOOJUNBARNG/azuma-visit-clinic-hp) |
 | Tokiwa-healthcare-service | 🔒 | microCMS Templates | 2026-01-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-healthcare-service) |
 
 ### 💰 財務・経理系
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
+| Data_for_receipt | 🔒 | レセプト処理パイプライン ＋ Streamlit経営分析ダッシュボード（医師別収益性など） | 2026-09-09 | [link](https://github.com/SOOJUNBARNG/Data_for_receipt) |
 | Analysis_receipt_er_task | 🔒 | 電子カルテ 環境設定更新ログを用いた機器別使用頻度分析 | 117台×8ヶ月の月次集計・低頻度端末・部署別分析をExcel出力 | 2026-09-04 | [link](https://github.com/SOOJUNBARNG/Analysis_receipt_er_task) |
-| Data_for_receipt | 🔒 | レセプト処理パイプライン ＋ Streamlit経営分析ダッシュボード（医師別収益性など） | 2026-09-03 | [link](https://github.com/SOOJUNBARNG/Data_for_receipt) |
 | Financial_evaluation_task_tool | 🔒 | PL/BSベースの企業財務評価を行うためのツール群。 | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/Financial_evaluation_task_tool) |
 | Barng_financial_projects | 🌐 | This is a proof of concept for an AI-powered hedge fund (educational purposes only). | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Barng_financial_projects) |
+
+### 💬 LINE・通知系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| Google_mail_mcp | 🔒 | Gmail受信トレイを自動整理するPythonスクリプト。ルールベースでラベル付け・アーカイブ・ゴミ箱振り分けを一括処理。 | 2026-09-07 | [link](https://github.com/SOOJUNBARNG/Google_mail_mcp) |
+| LINE_message_MCP_Product | 🔒 | — | 2026-08-24 | [link](https://github.com/SOOJUNBARNG/LINE_message_MCP_Product) |
+| LINE_WORKS_SUMMARY | 🔒 | LINE WORKSのトーク履歴をGemini APIで要約し、指定チャンネルに投稿するツール。 | 2026-08-20 | [link](https://github.com/SOOJUNBARNG/LINE_WORKS_SUMMARY) |
+| line-works-mcp-server | 🔒 | LINE WORKSをMCP経由で操作するサーバー(メッセージ送信・ユーザー一覧・タスク作成・トーク要約) / MCP server for LINE WORKS — messaging, users, tasks, and talk summaries. Mock data demo. | 2026-08-09 | [link](https://github.com/SOOJUNBARNG/line-works-mcp-server) |
+| LINE_TASK_CONTROL | 🔒 | LINE WORKS APIでユーザー一覧取得・タスク作成・一括登録を行うスクリプト集。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/LINE_TASK_CONTROL) |
+| LINE_LINEWORKS_GAS_SERVER_AI_CHATSERVICE | 🔒 | LINEとLINE WORKSの両方に対応したAIチャットサービス。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/LINE_LINEWORKS_GAS_SERVER_AI_CHATSERVICE) |
 
 ### 🏥 医療・病院系
 
@@ -133,20 +150,6 @@
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
 | barng-career-site | 🔒 | Soojun Barng's multilingual career/resume site with a Tokiwa Health OKR reporting integration | 2026-08-29 | [link](https://github.com/SOOJUNBARNG/barng-career-site) |
-
-### 🤖 AI・自動化系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| Yolov10_task | 🔒 | YOLOv10 + MediaPipe を使って PC カメラ映像からリアルタイムに業務状況を検出するシステムです。 | 2026-08-24 | [link](https://github.com/SOOJUNBARNG/Yolov10_task) |
-| Claude_base_spread_sheet_ppt_google_doc_MCP | 🔒 | Claude との会話を Google Sheets / Docs / Slides に直接書き込む個人用 MCP サーバー。コピペ不要、新規ファイル作成不要。10ツール稼働中。 | 2026-08-10 | [link](https://github.com/SOOJUNBARNG/Claude_base_spread_sheet_ppt_google_doc_MCP) |
-| novel-writer-korean | 🌐 | LLMを使った長編小説自動執筆ツール。Claude・GPT・Gemini・Mistral対応。アウトライン→ドラフト→仕上げの3段階で小説を生成します。 | 2026-07-28 | [link](https://github.com/SOOJUNBARNG/novel-writer-korean) |
-| Auto-translation-task | 🔒 | 日本語ファイル（PowerPoint / Word / Excel）を Gemini API で自動翻訳するツール。 | 2026-07-28 | [link](https://github.com/SOOJUNBARNG/Auto-translation-task) |
-| google-maps-route-optimizer | 🔒 | Google Maps Routes APIを使った複数経由地ルート最適化ツール（CSV/Googleスプレッドシート対応、Leaflet地図出力） | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/google-maps-route-optimizer) |
-| ai_diary_app | 🔒 | samples, guidance on mobile development, and a full API reference. | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/ai_diary_app) |
-| AI_Voice_bot_netlify | 🔒 | User -> Node.js (このコード) -> Dialogflow CX (Intent) -> 固定の回答 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/AI_Voice_bot_netlify) |
-| PPTAgent_barng | 🌐 | PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides | 2025-03-20 | [link](https://github.com/SOOJUNBARNG/PPTAgent_barng) |
-| nanobrowser | 🌐 | Open-source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator. | 2025-03-12 | [link](https://github.com/SOOJUNBARNG/nanobrowser) |
 
 ### 🏬 その他法人・外部案件
 
