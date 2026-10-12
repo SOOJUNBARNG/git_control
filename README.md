@@ -1,6 +1,6 @@
 # 🗂️ git_control — SOOJUNBARNG リポジトリ管理
 
-> 最終更新: 2026-10-05 03:00 UTC | 合計: 82件
+> 最終更新: 2026-10-12 03:16 UTC | 合計: 84件
 
 全リポジトリの一覧・管理スクリプトをまとめたハブリポジトリ。**このREADMEは毎日自動更新されます。**
 
@@ -30,13 +30,14 @@
 
 ---
 
-## リポジトリ一覧 (82件)
+## リポジトリ一覧 (84件)
 
 ### 📦 その他
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
-| GCP_IAM_COST_CONTROL | 🔒 | GCP/Firebaseの支払い状況を項目別に把握し、プロジェクトをローカルGitリポジトリに紐づけて一覧できるダッシュボードツール。 | 2026-10-05 | [link](https://github.com/SOOJUNBARNG/GCP_IAM_COST_CONTROL) |
+| GCP_IAM_COST_CONTROL | 🔒 | GCP/Firebaseの支払い状況を項目別に把握し、プロジェクトをローカルGitリポジトリに紐づけて一覧できるダッシュボードツール。 | 2026-10-12 | [link](https://github.com/SOOJUNBARNG/GCP_IAM_COST_CONTROL) |
+| Google_comment_auto_reply_product | 🔒 | 医療・介護施設（はとがや病院・老健ねぎしケアセンター・あずま在宅クリニック）のGoogle口コミに、毎日8〜19時の毎正時にLLMで自動返信するボット＋返信用LLMの比較POC | 2026-10-11 | [link](https://github.com/SOOJUNBARNG/Google_comment_auto_reply_product) |
 | Safe_lending_money_product | 🔒 | 友人に貸したお金が返ってこない → AIが少額訴訟の準備を3分で完了。2エージェント対話で不足書類を特定、Geminiが契約書を即時生成。Vertex AI × Firebase × Flutter｜Google Cloud Japan AI Hackathon Vol.5 | 2026-10-01 | [link](https://github.com/SOOJUNBARNG/Safe_lending_money_product) |
 | ekispert-multimodal-mcp-product | 🔒 | 🚃 電車×シェアサイクル通勤ナビ | 駅すぱあと×LUUP×ドコモ×Hello Cycling。住所入力対応。シェアサイクルが電車より速い場合はおすすめ表示。Agentic AI Hackathon Vol.5 | 2026-10-01 | [link](https://github.com/SOOJUNBARNG/ekispert-multimodal-mcp-product) |
 | All_mighty_test_page | 🔒 | ALMIGHTY SQUARE（TOTAL PRODUCE COMPANY）公式サイト — Firebase Hosting + GSAP | 2026-10-01 | [link](https://github.com/SOOJUNBARNG/All_mighty_test_page) |
@@ -58,11 +59,12 @@
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
-| Hatogaya_SLM_product | 🔒 | 病院向けオフライン医療AIアシスタント｜完全ローカル動作・Electron + Ollama + TinySwallow×BioMistral蒸留｜Python不要・ネット不要 | 2026-10-04 | [link](https://github.com/SOOJUNBARNG/Hatogaya_SLM_product) |
+| Hatogaya_talent_management | 🔒 | jinjer × Claude APIで構築した人材管理システム。 | 2026-10-11 | [link](https://github.com/SOOJUNBARNG/Hatogaya_talent_management) |
+| Hatogaya_SLM_product | 🔒 | 病院向けオフライン医療AIアシスタント｜完全ローカル動作・Electron + Ollama + TinySwallow×BioMistral蒸留｜Python不要・ネット不要 | 2026-10-11 | [link](https://github.com/SOOJUNBARNG/Hatogaya_SLM_product) |
+| Hatogaya_intranet | 🔒 | はとがや病院 職員向けポータル（通達・入退職手続き・チャット・資料共有・勤怠）。Astro + Firebase / PWA・モバイルファースト | 2026-10-07 | [link](https://github.com/SOOJUNBARNG/Hatogaya_intranet) |
 | hatogaya-it-asset-mgmt-product | 🔒 | 病院内ネットワークの全PC(OS問わず)をpingで自動検出し、WindowsPCのファイル一覧をCSV出力するツール | 2026-09-30 | [link](https://github.com/SOOJUNBARNG/hatogaya-it-asset-mgmt-product) |
 | hatogaya_nas_cloud_backup_product | 🔒 | 複数NAS(LS220D等)の共有フォルダーをMac経由でGoogle Drive/Boxへ毎日自動バックアップ (rclone + bash + launchd) | 2026-09-29 | [link](https://github.com/SOOJUNBARNG/hatogaya_nas_cloud_backup_product) |
 | hatogaya-data-hub-product | 🔒 | 鳩ヶ谷 統合ハブ - シフトマネージャー/jinjer/タレントマネジメント間のデータ連携を集約するFirebase製統合ハブ(MVP開発中) | 2026-09-29 | [link](https://github.com/SOOJUNBARNG/hatogaya-data-hub-product) |
-| Hatogaya_talent_management | 🔒 | jinjer × Claude APIで構築した人材管理システム。 | 2026-09-09 | [link](https://github.com/SOOJUNBARNG/Hatogaya_talent_management) |
 | Hatogaya_knowledge_share_web_system | 🔒 | 鳩ヶ谷内で使う社内向け知識共有Webシステム(Firebase Cloud Functions + Firestore, Node.js/TypeScript) | 2026-09-05 | [link](https://github.com/SOOJUNBARNG/Hatogaya_knowledge_share_web_system) |
 | Firebase_Hatogaya_voice_product | 🔒 | 医療現場向け音声記録アプリ。録音するだけでAI（Gemini）が文字起こし・要約を自動生成。Firebase Hosting + Cloud Functions で運用。 | 2026-09-05 | [link](https://github.com/SOOJUNBARNG/Firebase_Hatogaya_voice_product) |
 | hatogaya_jobhunting | 🔒 | 医療法人あかつき会（はとがや病院）採用サイト＆人事向け応募者管理システム（Next.js + Supabase） | 2026-08-22 | [link](https://github.com/SOOJUNBARNG/hatogaya_jobhunting) |
@@ -70,13 +72,27 @@
 | hatogaya_jotform_product | 🔒 | はとがや病院 患者満足度調査フォーム | 2026-07-22 | [link](https://github.com/SOOJUNBARNG/hatogaya_jotform_product) |
 | Tokiwa-hatogaya-study-app | 🔒 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-hatogaya-study-app) |
 
+### 👤 個人・キャリア系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| barng-career-site | 🔒 | Soojun Barng's multilingual career/resume site with a Tokiwa Health OKR reporting integration | 2026-10-07 | [link](https://github.com/SOOJUNBARNG/barng-career-site) |
+
 ### 🏢 クリニック・法人HP系
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
-| azuma-visit-clinic-hp | 🔒 | microCMS Templates | 2026-10-03 | [link](https://github.com/SOOJUNBARNG/azuma-visit-clinic-hp) |
+| azuma-visit-clinic-hp | 🔒 | あずま在宅クリニック（はとがや病院グループ）公式サイト｜Next.js 15 + microCMS、Firebase Hosting で公開 | 2026-10-07 | [link](https://github.com/SOOJUNBARNG/azuma-visit-clinic-hp) |
 | Negishi_homecare_HP | 🔒 | 介護老人保健施設「老健ねぎしケアセンター」公式サイト（Firebase Hosting + Cloud Functions） | 2026-09-05 | [link](https://github.com/SOOJUNBARNG/Negishi_homecare_HP) |
 | Tokiwa-healthcare-service | 🔒 | microCMS Templates | 2026-01-12 | [link](https://github.com/SOOJUNBARNG/Tokiwa-healthcare-service) |
+
+### 🔧 ツール・管理系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| git_control | 🌐 | SOOJUNBARNG 全リポジトリの一覧・管理ハブ。READMEは毎日自動更新。 | 2026-10-05 | [link](https://github.com/SOOJUNBARNG/git_control) |
+| All_general_data_for_barng | 🔒 | 個人資料を整理する個人用アーカイブリポジトリ | 2026-09-09 | [link](https://github.com/SOOJUNBARNG/All_general_data_for_barng) |
+| Data_upload_and_download | 🔒 | AWSクラウド移行前にデータをTableauで週次・月次で観測するための臨時ツール。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Data_upload_and_download) |
 
 ### 🤖 AI・自動化系
 
@@ -123,14 +139,6 @@
 | saitama-hospital-info-collector | 🔒 | 埼玉県の在宅療養支援診療所・病院データをJMAPから収集し、Gemini APIで要約・特徴タグ付けするパイプライン。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/saitama-hospital-info-collector) |
 | Hatogaya-medical-chat-bot | 🌐 | — | 2026-07-12 | [link](https://github.com/SOOJUNBARNG/Hatogaya-medical-chat-bot) |
 
-### 🔧 ツール・管理系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| git_control | 🌐 | SOOJUNBARNG 全リポジトリの一覧・管理ハブ。READMEは毎日自動更新。 | 2026-09-28 | [link](https://github.com/SOOJUNBARNG/git_control) |
-| All_general_data_for_barng | 🔒 | 個人資料を整理する個人用アーカイブリポジトリ | 2026-09-09 | [link](https://github.com/SOOJUNBARNG/All_general_data_for_barng) |
-| Data_upload_and_download | 🔒 | AWSクラウド移行前にデータをTableauで週次・月次で観測するための臨時ツール。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Data_upload_and_download) |
-
 ### 💰 財務・経理系
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
@@ -139,12 +147,6 @@
 | Analysis_receipt_er_task | 🔒 | 電子カルテ 環境設定更新ログを用いた機器別使用頻度分析 | 117台×8ヶ月の月次集計・低頻度端末・部署別分析をExcel出力 | 2026-09-04 | [link](https://github.com/SOOJUNBARNG/Analysis_receipt_er_task) |
 | Financial_evaluation_task_tool | 🔒 | PL/BSベースの企業財務評価を行うためのツール群。 | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/Financial_evaluation_task_tool) |
 | Barng_financial_projects | 🌐 | This is a proof of concept for an AI-powered hedge fund (educational purposes only). | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Barng_financial_projects) |
-
-### 👤 個人・キャリア系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| barng-career-site | 🔒 | Soojun Barng's multilingual career/resume site with a Tokiwa Health OKR reporting integration | 2026-09-11 | [link](https://github.com/SOOJUNBARNG/barng-career-site) |
 
 ### 💬 LINE・通知系
 
