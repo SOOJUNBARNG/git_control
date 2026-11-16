@@ -1,6 +1,6 @@
 # 🗂️ git_control — SOOJUNBARNG リポジトリ管理
 
-> 最終更新: 2026-11-09 03:39 UTC | 合計: 83件
+> 最終更新: 2026-11-16 03:48 UTC | 合計: 85件
 
 全リポジトリの一覧・管理スクリプトをまとめたハブリポジトリ。**このREADMEは毎日自動更新されます。**
 
@@ -30,18 +30,20 @@
 
 ---
 
-## リポジトリ一覧 (83件)
+## リポジトリ一覧 (85件)
 
 ### 📦 その他
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
+| IT_subjob_HP_product | 🔒 | — | 2026-11-15 | [link](https://github.com/SOOJUNBARNG/IT_subjob_HP_product) |
+| oasis_seoul_webpage_product | 🔒 | OASIS SEOUL 公式ウェブサイト — ラグジュアリー会員制サービス | Firebase Hosting + Gemini AI + Firestore | 2026-11-15 | [link](https://github.com/SOOJUNBARNG/oasis_seoul_webpage_product) |
+| Google_comment_auto_reply_product | 🔒 | 医療・介護施設（はとがや病院・老健ねぎしケアセンター・あずま在宅クリニック）のGoogle口コミに、毎日8〜19時の毎正時にGemini Proで返信案を作成し、メールの承認ボタンで投稿するボット（Cloud Run）＋返信用LLMの比較POC | 2026-11-12 | [link](https://github.com/SOOJUNBARNG/Google_comment_auto_reply_product) |
+| Global_trading_game_product | 🔒 | 거상처럼 땅을 걸으며 장사를 배우고, 대항해시대처럼 바다를 건너 세계로 나아가는 고양이 교역 게임이에요. | 2026-11-11 | [link](https://github.com/SOOJUNBARNG/Global_trading_game_product) |
 | GCP_IAM_COST_CONTROL | 🔒 | GCP/Firebaseの支払い状況を項目別に把握し、プロジェクトをローカルGitリポジトリに紐づけて一覧できるダッシュボードツール。 | 2026-11-09 | [link](https://github.com/SOOJUNBARNG/GCP_IAM_COST_CONTROL) |
-| Global_trading_game_product | 🔒 | 거상처럼 땅을 걸으며 장사를 배우고, 대항해시대처럼 바다를 건너 세계로 나아가는 고양이 교역 게임이에요. | 2026-11-08 | [link](https://github.com/SOOJUNBARNG/Global_trading_game_product) |
 | Data_etl_task | 🔒 | 会計データ（摘要テキスト）の構造化ETLパイプライン。ユニーク抽出・カテゴリ分類・人名/業者抽出・LEFT JOIN・集計サマリーまでをPythonスクリプト4本で自動化。 | 2026-11-04 | [link](https://github.com/SOOJUNBARNG/Data_etl_task) |
 | Make_image_product | 🔒 | GCP T4 GPU + Pony Diffusion V6 XL로 1610년대 무역항 배경 안트로포모픽 고양이 캐릭터 초상화 생성 (45명) | 2026-11-04 | [link](https://github.com/SOOJUNBARNG/Make_image_product) |
 | Make_music_product | 🌐 | ACE-Step 1.5 を GCP の L4 GPU で動かし、要件テキストファイルからゲーム BGM 56 曲を一括生成 (旧 CPU/MusicGen 版は OLD/) | 2026-11-04 | [link](https://github.com/SOOJUNBARNG/Make_music_product) |
-| Google_comment_auto_reply_product | 🔒 | 医療・介護施設（はとがや病院・老健ねぎしケアセンター・あずま在宅クリニック）のGoogle口コミに、毎日8〜19時の毎正時にGemini Proで返信案を作成し、メールの承認ボタンで投稿するボット（Cloud Run）＋返信用LLMの比較POC | 2026-11-04 | [link](https://github.com/SOOJUNBARNG/Google_comment_auto_reply_product) |
 | MF_API_task | 🔒 | — | 2026-11-02 | [link](https://github.com/SOOJUNBARNG/MF_API_task) |
 | Instagram_own_product | 🔒 | Instagram の投稿を自分のサイトに埋め込むための、セルフホスト型フィードサーバー＆ウィジェット。 | 2026-10-26 | [link](https://github.com/SOOJUNBARNG/Instagram_own_product) |
 | filmcraft_python | 🌐 | FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust | 2026-10-16 | [link](https://github.com/SOOJUNBARNG/filmcraft_python) |
@@ -66,7 +68,8 @@
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
-| Write_novel_product | 🔒 | 결정의 궤적 소설 라이터 — Qwen2.5-7B-Instruct-1M (1M context) で設定集＋本編全文を読み込み次の章を自動生成 / GCP T4対応 | 2026-11-08 | [link](https://github.com/SOOJUNBARNG/Write_novel_product) |
+| AI_make_music_make_product | 🔒 | — | 2026-11-14 | [link](https://github.com/SOOJUNBARNG/AI_make_music_make_product) |
+| Write_novel_product | 🔒 | 결정의 궤적 소설 라이터 — Qwen2.5-7B-Instruct-1M (1M context) で設定集＋本編全文を読み込み次の章を自動生成 / GCP T4対応 | 2026-11-12 | [link](https://github.com/SOOJUNBARNG/Write_novel_product) |
 | Global_trading_novel_write | 🔒 | — | 2026-11-08 | [link](https://github.com/SOOJUNBARNG/Global_trading_novel_write) |
 | Claude_base_spread_sheet_ppt_google_doc_MCP | 🔒 | Claude との会話を Google Sheets / Docs / Slides に直接書き込む個人用 MCP サーバー。コピペ不要、新規ファイル作成不要。10ツール稼働中。 | 2026-10-01 | [link](https://github.com/SOOJUNBARNG/Claude_base_spread_sheet_ppt_google_doc_MCP) |
 | azuma_care_questionnaire_product | 🔒 | あずま在宅クリニック｜ケアマネジャー向け匿名アンケートサイト（Firebase Hosting + Google Apps Script） | 2026-09-07 | [link](https://github.com/SOOJUNBARNG/azuma_care_questionnaire_product) |
@@ -79,11 +82,28 @@
 | PPTAgent_barng | 🌐 | PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides | 2025-03-20 | [link](https://github.com/SOOJUNBARNG/PPTAgent_barng) |
 | nanobrowser | 🌐 | Open-source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator. | 2025-03-12 | [link](https://github.com/SOOJUNBARNG/nanobrowser) |
 
+### 🏢 クリニック・法人HP系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| azuma-visit-clinic-hp | 🔒 | あずま在宅クリニック（はとがや病院グループ）公式サイト｜Next.js 15 + microCMS、Firebase Hosting で公開 | 2026-10-28 | [link](https://github.com/SOOJUNBARNG/azuma-visit-clinic-hp) |
+| Negishi_homecare_HP | 🔒 | 介護老人保健施設「老健ねぎしケアセンター」公式サイト（Firebase Hosting + Cloud Functions） | 2026-09-05 | [link](https://github.com/SOOJUNBARNG/Negishi_homecare_HP) |
+
+### 👔 鳩ヶ谷系
+
+| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
+|-----------|------|------|----------|--------|
+| Hatogaya_intranet | 🔒 | はとがや病院 職員ポータル：通達・資料・内部規程・病床稼働率・薬科（院内医薬品集・Gemini による AI 検索/RAG）・チャット・勤怠。Astro + React + Firebase（Functions）/ PWA・モバイルファースト | 2026-11-12 | [link](https://github.com/SOOJUNBARNG/Hatogaya_intranet) |
+| hatogaya-it-asset-mgmt-product | 🔒 | 病院内ネットワークの全PC(OS問わず)をpingで自動検出し、WindowsPCのファイル一覧をCSV出力するツール | 2026-11-01 | [link](https://github.com/SOOJUNBARNG/hatogaya-it-asset-mgmt-product) |
+| Hatogaya_SLM_product | 🔒 | 病院向けオフライン医療AIアシスタント｜完全ローカル動作・Electron + Ollama + TinySwallow×BioMistral蒸留｜Python不要・ネット不要 | 2026-10-21 | [link](https://github.com/SOOJUNBARNG/Hatogaya_SLM_product) |
+| hatogaya_nas_cloud_backup_product | 🔒 | 複数NAS(LS220D等)の共有フォルダーをMac経由でGoogle Drive/Boxへ毎日自動バックアップ (rclone + bash + launchd) | 2026-09-29 | [link](https://github.com/SOOJUNBARNG/hatogaya_nas_cloud_backup_product) |
+| hatogaya-data-hub-product | 🔒 | 鳩ヶ谷 統合ハブ - シフトマネージャー/jinjer/タレントマネジメント間のデータ連携を集約するFirebase製統合ハブ(MVP開発中) | 2026-09-29 | [link](https://github.com/SOOJUNBARNG/hatogaya-data-hub-product) |
+
 ### 🔧 ツール・管理系
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
-| git_control | 🌐 | SOOJUNBARNG 全リポジトリの一覧・管理ハブ。READMEは毎日自動更新。 | 2026-11-02 | [link](https://github.com/SOOJUNBARNG/git_control) |
+| git_control | 🌐 | SOOJUNBARNG 全リポジトリの一覧・管理ハブ。READMEは毎日自動更新。 | 2026-11-09 | [link](https://github.com/SOOJUNBARNG/git_control) |
 | All_general_data_for_barng | 🔒 | 個人資料を整理する個人用アーカイブリポジトリ | 2026-10-25 | [link](https://github.com/SOOJUNBARNG/All_general_data_for_barng) |
 | Data_upload_and_download | 🔒 | AWSクラウド移行前にデータをTableauで週次・月次で観測するための臨時ツール。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Data_upload_and_download) |
 
@@ -97,23 +117,6 @@
 | line-works-mcp-server | 🔒 | LINE WORKSをMCP経由で操作するサーバー(メッセージ送信・ユーザー一覧・タスク作成・トーク要約) / MCP server for LINE WORKS — messaging, users, tasks, and talk summaries. Mock data demo. | 2026-08-09 | [link](https://github.com/SOOJUNBARNG/line-works-mcp-server) |
 | LINE_TASK_CONTROL | 🔒 | LINE WORKS APIでユーザー一覧取得・タスク作成・一括登録を行うスクリプト集。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/LINE_TASK_CONTROL) |
 | LINE_LINEWORKS_GAS_SERVER_AI_CHATSERVICE | 🔒 | LINEとLINE WORKSの両方に対応したAIチャットサービス。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/LINE_LINEWORKS_GAS_SERVER_AI_CHATSERVICE) |
-
-### 👔 鳩ヶ谷系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| hatogaya-it-asset-mgmt-product | 🔒 | 病院内ネットワークの全PC(OS問わず)をpingで自動検出し、WindowsPCのファイル一覧をCSV出力するツール | 2026-11-01 | [link](https://github.com/SOOJUNBARNG/hatogaya-it-asset-mgmt-product) |
-| Hatogaya_intranet | 🔒 | はとがや病院 職員ポータル：通達・資料・内部規程・病床稼働率・薬科（院内医薬品集・Gemini による AI 検索/RAG）・チャット・勤怠。Astro + React + Firebase（Functions）/ PWA・モバイルファースト | 2026-10-25 | [link](https://github.com/SOOJUNBARNG/Hatogaya_intranet) |
-| Hatogaya_SLM_product | 🔒 | 病院向けオフライン医療AIアシスタント｜完全ローカル動作・Electron + Ollama + TinySwallow×BioMistral蒸留｜Python不要・ネット不要 | 2026-10-21 | [link](https://github.com/SOOJUNBARNG/Hatogaya_SLM_product) |
-| hatogaya_nas_cloud_backup_product | 🔒 | 複数NAS(LS220D等)の共有フォルダーをMac経由でGoogle Drive/Boxへ毎日自動バックアップ (rclone + bash + launchd) | 2026-09-29 | [link](https://github.com/SOOJUNBARNG/hatogaya_nas_cloud_backup_product) |
-| hatogaya-data-hub-product | 🔒 | 鳩ヶ谷 統合ハブ - シフトマネージャー/jinjer/タレントマネジメント間のデータ連携を集約するFirebase製統合ハブ(MVP開発中) | 2026-09-29 | [link](https://github.com/SOOJUNBARNG/hatogaya-data-hub-product) |
-
-### 🏢 クリニック・法人HP系
-
-| リポジトリ | 公開 | 説明 | 最終更新 | リンク |
-|-----------|------|------|----------|--------|
-| azuma-visit-clinic-hp | 🔒 | あずま在宅クリニック（はとがや病院グループ）公式サイト｜Next.js 15 + microCMS、Firebase Hosting で公開 | 2026-10-28 | [link](https://github.com/SOOJUNBARNG/azuma-visit-clinic-hp) |
-| Negishi_homecare_HP | 🔒 | 介護老人保健施設「老健ねぎしケアセンター」公式サイト（Firebase Hosting + Cloud Functions） | 2026-09-05 | [link](https://github.com/SOOJUNBARNG/Negishi_homecare_HP) |
 
 ### 👤 個人・キャリア系
 
@@ -144,7 +147,6 @@
 | negishi_survey | 🔒 | 老健ねぎしケアセンター 利用者満足度調査フォーム。回答はGoogle Apps Script経由でスプレッドシートへ保存。総合評価4以上でGoogleクチコミへ誘導。Firebase Hosting + 静的HTML/JS。 | 2026-08-13 | [link](https://github.com/SOOJUNBARNG/negishi_survey) |
 | job_quit_simple_task | 🌐 | 従業員の勤怠・給与データから退職リスクを事前検知するMLパイプライン（ロジスティック回帰・ランダムフォレスト・勾配ブースティング） | 2026-08-08 | [link](https://github.com/SOOJUNBARNG/job_quit_simple_task) |
 | Ser_inc_HP | 🔒 | SER株式会社の公式コーポレートサイト — 韓国テクノロジー・文化と日本市場をつなぐ東京拠点の企業（METAX・ヘルスケア・エンターテインメント） | 2026-07-28 | [link](https://github.com/SOOJUNBARNG/Ser_inc_HP) |
-| job_quit_task | 🔒 | 給与・勤務状況・生年月日・住所などの人事データから従業員の退職リスクをRandomForest+SHAPで予測し、 | 2026-07-22 | [link](https://github.com/SOOJUNBARNG/job_quit_task) |
 | MA_Techno | 🔒 | 企業リストのスクレイピングを支援するスクリプト集 | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/MA_Techno) |
 | azuma-jotform | 🔒 | Firebase Hosting上で公開している、患者向けの満足度調査フォーム。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/azuma-jotform) |
 | Sake_selling_ecshop | 🔒 | 韓国語話者向けの日本酒販売ECサイト（React + Vite + Firebase）。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Sake_selling_ecshop) |
