@@ -1,6 +1,6 @@
 # 🗂️ git_control — SOOJUNBARNG リポジトリ管理
 
-> 最終更新: 2026-11-22 UTC | 合計: 72件
+> 最終更新: 2026-11-22 UTC | 合計: 65件
 
 全リポジトリの一覧・管理スクリプトをまとめたハブリポジトリ。**このREADMEは毎日自動更新されます。**
 
@@ -30,27 +30,23 @@
 
 ---
 
-## リポジトリ一覧 (72件)
+## リポジトリ一覧 (65件)
 
-### 🏥 医療・病院 (13件)
+### 🏥 医療・病院 (9件)
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
-| Google_comment_auto_reply_product | 🔒 | 医療・介護施設のGoogle口コミにGemini Proで返信案を作成しメール承認で投稿するボット（Cloud Run） | 2026-11-12 | [link](https://github.com/SOOJUNBARNG/Google_comment_auto_reply_product) |
-| Medical_information_task | 🌐 | medical-rag-db: ICD-10・DPC・PMDA添付文書を事前埋め込み済みSQLite(rag.db)にまとめ、medical-ai-appから完全オフラインでRAG検索するための医療知識ベース構築パイプライン | 2026-10-25 | [link](https://github.com/SOOJUNBARNG/Medical_information_task) |
-| Scrap_medical_job_detail_task | 🔒 | job-medley.com から医療系求人データをスクレイピングし Excel に整形するパイプライン（埼玉・東京 / 医師・看護師・PT・OT・ST・薬剤師・訪問看護） | 2026-10-21 | [link](https://github.com/SOOJUNBARNG/Scrap_medical_job_detail_task) |
 | OCR_based_financial_data_analysis_task | 🔒 | 病院・介護施設の請求書PDF（12社対応）から品名・数量・単価・金額・病棟を自動抽出。Gemini 2.5 Flash による会社識別＋専用プロンプト2段階処理。 | 2026-09-30 | [link](https://github.com/SOOJUNBARNG/OCR_based_financial_data_analysis_task) |
 | Data_for_receipt | 🔒 | レセプト処理パイプライン ＋ Streamlit経営分析ダッシュボード（医師別収益性など） | 2026-09-13 | [link](https://github.com/SOOJUNBARNG/Data_for_receipt) |
+| KJM_GAS_electricity_water_result_task | 🔒 | GAS: 電気・水道使用量の集計結果をフロア別PDF化してメール送信。clasp + GitHub Actionsで自動デプロイ | 2026-09-11 | [link](https://github.com/SOOJUNBARNG/KJM_GAS_electricity_water_result_task) |
 | Analysis_receipt_er_task | 🔒 | 電子カルテ 環境設定更新ログを用いた機器別使用頻度分析 \| 117台×8ヶ月の月次集計・低頻度端末・部署別分析をExcel出力 | 2026-09-04 | [link](https://github.com/SOOJUNBARNG/Analysis_receipt_er_task) |
 | READ_PDF_Count_doctor_request_pdf_task | 🌐 | 投薬依頼書（スキャンPDF）から 患者情報・依頼医師・薬品明細 を Gemini OCR で自動抽出し、Excel に整理するパイプラインです。 | 2026-08-26 | [link](https://github.com/SOOJUNBARNG/READ_PDF_Count_doctor_request_pdf_task) |
 | Yolov10_task | 🔒 | YOLOv10 + MediaPipe を使って PC カメラ映像からリアルタイムに業務状況を検出するシステムです。 | 2026-08-24 | [link](https://github.com/SOOJUNBARNG/Yolov10_task) |
 | KJM_building_electricity_check_product | 🔒 | ESP32 + Firebase で構築した7フロアビル向け電力監視システム。Modbus RTU でスマートメーターからデータ取得し、Web ダッシュボードで可視化。 | 2026-07-30 | [link](https://github.com/SOOJUNBARNG/KJM_building_electricity_check_product) |
 | Jpix_ocr_task | 🔒 | 財務諸表PDFを表抽出/OCRでExcel・Wordに変換するツール(Tkinter GUI + CLIスクリプト) | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/Jpix_ocr_task) |
 | Medical_frontier_code | 🔒 | これは房の個人レポジトリーではあるが、すべて会社の資産であり個人での利用を厳禁する。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Medical_frontier_code) |
-| saitama-hospital-info-collector | 🔒 | 埼玉県の在宅療養支援診療所・病院データをJMAPから収集し、Gemini APIで要約・特徴タグ付けするパイプライン。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/saitama-hospital-info-collector) |
-| KJM_GAS_electricity_water_result_task | 🔒 | GAS: 電気・水道使用量の集計結果をフロア別PDF化してメール送信。clasp + GitHub Actionsで自動デプロイ | 2026-09-11 | [link](https://github.com/SOOJUNBARNG/KJM_GAS_electricity_water_result_task) |
 
-### 🤖 AI・自動化 (14件)
+### 🤖 AI・自動化 (13件)
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
@@ -59,7 +55,6 @@
 | ekispert-multimodal-mcp-product | 🔒 | 🚃 電車×シェアサイクル通勤ナビ \| 駅すぱあと×LUUP×ドコモ×Hello Cycling。住所入力対応。シェアサイクルが電車より速い場合はおすすめ表示。Agentic AI Hackathon Vol.5 | 2026-10-13 | [link](https://github.com/SOOJUNBARNG/ekispert-multimodal-mcp-product) |
 | Claude_base_spread_sheet_ppt_google_doc_MCP | 🔒 | Claude との会話を Google Sheets / Docs / Slides に直接書き込む個人用 MCP サーバー。コピペ不要、新規ファイル作成不要。10ツール稼働中。 | 2026-10-01 | [link](https://github.com/SOOJUNBARNG/Claude_base_spread_sheet_ppt_google_doc_MCP) |
 | Safe_lending_money_product | 🔒 | 友人に貸したお金が返ってこない → AIが少額訴訟の準備を3分で完了。2エージェント対話で不足書類を特定、Geminiが契約書を即時生成。Vertex AI × Firebase × Flutter｜Google Cloud Japan AI Hackathon Vol.5 | 2026-10-01 | [link](https://github.com/SOOJUNBARNG/Safe_lending_money_product) |
-| Google_drive_data_to_RAG_product | 🔒 | — | 2026-09-13 | [link](https://github.com/SOOJUNBARNG/Google_drive_data_to_RAG_product) |
 | Google_drive_file_directory_change | 🔒 | 個人のGoogle Driveのファイル・フォルダを自動整理するPythonツール（拡張子/キーワード別振り分け、重複検出、リネーム整形、ドライラン対応） | 2026-09-09 | [link](https://github.com/SOOJUNBARNG/Google_drive_file_directory_change) |
 | Claude_base_html_make_MCP | 🌐 | 開発アイデアを構造化してHTML形式で保存するClaude Code用MCPサーバー | 2026-08-21 | [link](https://github.com/SOOJUNBARNG/Claude_base_html_make_MCP) |
 | Auto-translation-task | 🔒 | 日本語ファイル（PowerPoint / Word / Excel）を Gemini API で自動翻訳するツール。 | 2026-07-28 | [link](https://github.com/SOOJUNBARNG/Auto-translation-task) |
@@ -108,17 +103,16 @@
 | LINE_TASK_CONTROL | 🔒 | LINE WORKS APIでユーザー一覧取得・タスク作成・一括登録を行うスクリプト集。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/LINE_TASK_CONTROL) |
 | LINE_LINEWORKS_GAS_SERVER_AI_CHATSERVICE | 🔒 | LINEとLINE WORKSの両方に対応したAIチャットサービス。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/LINE_LINEWORKS_GAS_SERVER_AI_CHATSERVICE) |
 
-### 💰 財務・経理 (5件)
+### 💰 財務・経理 (4件)
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
 | MF_API_task | 🔒 | — | 2026-11-02 | [link](https://github.com/SOOJUNBARNG/MF_API_task) |
-| Tokiwa_moneyforward_rpa_product | 🔒 | マネーフォワード クラウドのAPIで仕訳帳CSV（会計）・請求書データを自動取得するスクリプト群 | 2026-10-01 | [link](https://github.com/SOOJUNBARNG/Tokiwa_moneyforward_rpa_product) |
 | Financial_evaluation_task_tool | 🔒 | PL/BSベースの企業財務評価を行うためのツール群。 | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/Financial_evaluation_task_tool) |
 | Barng_financial_projects | 🌐 | This is a proof of concept for an AI-powered hedge fund (educational purposes only). | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Barng_financial_projects) |
 | Data_upload_and_download | 🔒 | AWSクラウド移行前にデータをTableauで週次・月次で観測するための臨時ツール。 | 2026-07-18 | [link](https://github.com/SOOJUNBARNG/Data_upload_and_download) |
 
-### 🎮 ゲーム・エンタメ・クリエイティブ (8件)
+### 🎮 ゲーム・エンタメ・クリエイティブ (7件)
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
@@ -127,7 +121,6 @@
 | Global_trading_novel_write | 🔒 | — | 2026-11-08 | [link](https://github.com/SOOJUNBARNG/Global_trading_novel_write) |
 | Make_image_product | 🔒 | GCP T4 GPU + Pony Diffusion V6 XL로 1610년대 무역항 배경 안트로포모픽 고양이 캐릭터 초상화 생성 (45명) | 2026-11-04 | [link](https://github.com/SOOJUNBARNG/Make_image_product) |
 | Make_music_product | 🌐 | ACE-Step 1.5 を GCP の L4 GPU で動かし、要件テキストファイルからゲーム BGM 56 曲を一括生成 (旧 CPU/MusicGen 版は OLD/) | 2026-11-04 | [link](https://github.com/SOOJUNBARNG/Make_music_product) |
-| SMALL_GAME_product | 🔒 | — | 2026-08-31 | [link](https://github.com/SOOJUNBARNG/SMALL_GAME_product) |
 | unmei48-product | 🔒 | 運命48 — 四柱推命ベースの縁結びアプリ（Flutter + Firebase）。 | 2026-08-04 | [link](https://github.com/SOOJUNBARNG/unmei48-product) |
 | novel-writer-korean | 🌐 | LLMを使った長編小説自動執筆ツール。Claude・GPT・Gemini・Mistral対応。アウトライン→ドラフト→仕上げの3段階で小説を生成します。 | 2026-07-28 | [link](https://github.com/SOOJUNBARNG/novel-writer-korean) |
 
@@ -141,10 +134,11 @@
 | image_bg_task | 🌐 | ロゴ・ブランド画像の下処理用ツールキット：背景除去、自動クロップ、ICO/SVG変換 | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/image_bg_task) |
 | All_general_data_for_barng | 🔒 | 個人資料を整理する個人用アーカイブリポジトリ | 2026-10-25 | [link](https://github.com/SOOJUNBARNG/All_general_data_for_barng) |
 
-### 👤 個人・キャリア (2件)
+### 👤 個人・キャリア (3件)
 
 | リポジトリ | 公開 | 説明 | 最終更新 | リンク |
 |-----------|------|------|----------|--------|
+| PPT_make_job_hunting_in_japan_product | 🔒 | — | 2026-11-18 | [link](https://github.com/SOOJUNBARNG/PPT_make_job_hunting_in_japan_product) |
 | barng-career-site | 🔒 | Soojun Barng's multilingual career/resume site with a Tokiwa Health OKR reporting integration | 2026-10-25 | [link](https://github.com/SOOJUNBARNG/barng-career-site) |
 | ai_diary_app | 🔒 | samples, guidance on mobile development, and a full API reference. | 2026-07-21 | [link](https://github.com/SOOJUNBARNG/ai_diary_app) |
 
