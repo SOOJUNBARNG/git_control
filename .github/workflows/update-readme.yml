@@ -244,6 +244,36 @@ jobs:
                   updated = r['updatedAt'][:10]
                   lines.append(f"| {r['name']} | {priv} | {desc} | {updated} | [link]({r['url']}) |")
 
+          # コラボレーターリポジトリ取得
+          import subprocess, json as json2
+          collab_result = subprocess.run(
+              ["gh", "api", "user/repos", "--paginate",
+               "-q", '.[] | select(.owner.login != "SOOJUNBARNG") | {name: .name, owner: .owner.login, description: .description, url: .html_url, updatedAt: .updated_at, isPrivate: .private}'],
+              capture_output=True, text=True
+          )
+          collab_repos = []
+          if collab_result.returncode == 0 and collab_result.stdout.strip():
+              for line in collab_result.stdout.strip().split('\n'):
+                  if line.strip():
+                      try:
+                          collab_repos.append(json2.loads(line))
+                      except Exception:
+                          pass
+
+          if collab_repos:
+              lines.append("")
+              lines.append(f"### 🏥 はとがや病院グループ ({len(collab_repos)}件) ※コラボレーター")
+              lines.append("")
+              lines.append("> オーナーは別アカウント（hatogayait-AX他）。自分はコラボレーターとして参加。")
+              lines.append("")
+              lines.append("| リポジトリ | オーナー | 公開 | 説明 | 最終更新 | リンク |")
+              lines.append("|-----------|----------|------|------|----------|--------|")
+              for r in sorted(collab_repos, key=lambda x: x['updatedAt'], reverse=True):
+                  priv = "🔒" if r['isPrivate'] else "🌐"
+                  desc = r['description'] or "—"
+                  updated = r['updatedAt'][:10]
+                  lines.append(f"| {r['name']} | {r['owner']} | {priv} | {desc} | {updated} | [link]({r['url']}) |")
+
           lines.append("")
           lines.append("---")
           lines.append("")
@@ -252,7 +282,7 @@ jobs:
           with open('README.md', 'w') as f:
               f.write('\n'.join(lines) + '\n')
 
-          print(f"✅ README生成完了: {total}件")
+          print(f"✅ README生成完了: {total}件（コラボレーター: {len(collab_repos)}件）")
           PYEOF
 
       - name: 変更があればcommit & push
